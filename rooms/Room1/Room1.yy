@@ -1,6 +1,6 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room1",
+  "%Name":"Cookbook",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,

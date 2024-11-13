@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"TempBoard","order":2,"path":"rooms/TempBoard/TempBoard.yy",},
     {"name":"TempFridge","order":1,"path":"rooms/TempFridge/TempFridge.yy",},
   ],
 }

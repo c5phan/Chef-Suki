@@ -34,6 +34,7 @@
   },
   "name":"CHEF SUKI",
   "resources":[
+    {"id":{"name":"TempBoard","path":"rooms/TempBoard/TempBoard.yy",},},
     {"id":{"name":"TempCookbook","path":"rooms/TempCookbook/TempCookbook.yy",},},
     {"id":{"name":"TempFridge","path":"rooms/TempFridge/TempFridge.yy",},},
     {"id":{"name":"TempSuki","path":"sprites/TempSuki/TempSuki.yy",},},
@@ -43,6 +44,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"TempCookbook","path":"rooms/TempCookbook/TempCookbook.yy",},},
     {"roomId":{"name":"TempFridge","path":"rooms/TempFridge/TempFridge.yy",},},
+    {"roomId":{"name":"TempBoard","path":"rooms/TempBoard/TempBoard.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

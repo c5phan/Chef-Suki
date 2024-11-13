@@ -34,12 +34,13 @@
   },
   "name":"CHEF SUKI",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Cookbook","path":"rooms/Cookbook/Cookbook.yy",},},
+    {"id":{"name":"TestSprite","path":"sprites/TestSprite/TestSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Cookbook","path":"rooms/Cookbook/Cookbook.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

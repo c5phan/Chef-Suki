@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"control_btn_1",
-    "path":"sprites/control_btn_1/control_btn_1.yy",
+    "name":"quit_btn",
+    "path":"sprites/quit_btn/quit_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

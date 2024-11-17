@@ -3,7 +3,7 @@ ySpeed = 0;
 zSpeed = 0;
 
 //Jumping
-moveSpeed = 2;
+moveSpeed = 3;
 jumpSpeed = -3.5;
 gameGravity = 0.25;
 

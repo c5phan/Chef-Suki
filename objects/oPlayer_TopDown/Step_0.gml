@@ -3,15 +3,7 @@ var right = keyboard_check(ord("D"));
 var up = keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
 var jump = keyboard_check_pressed(vk_space);
-var collect = keyboard_check(ord("E"));
-var drop = keyboard_check(ord("Q"));
 var dash = keyboard_check(vk_shift);
-
-// dash - double tap 
-var left_double = false;
-var right_double = false;
-var up_double = false;
-var down_double = false;
 
 // left, right, up, down movement
 if (left) {
@@ -68,16 +60,16 @@ if (z + zSpeed > zFloor) {
 // move along axis using Speed
 if (x + xSpeed < 0) {
 	x = 0;
-} else if (x + xSpeed > 1280) {
-	x = 1280;
+} else if (x + xSpeed > 1220) {
+	x = 1220;
 } else {
 	x += xSpeed;
 }
 
 if (y + ySpeed < 0) {
 	y = 0;
-} else if (y + ySpeed > 720) {
-	y = 720;
+} else if (y + ySpeed > 660) {
+	y = 660;
 } else {
 	y += ySpeed;
 }

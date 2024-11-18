@@ -4,7 +4,7 @@ zSpeed = 0;
 
 //Jumping
 moveSpeed = 2;
-jumpSpeed = -8
+jumpSpeed = -10
 gameGravity = 0.25;
 
 yHeight = -sprite_height / 2;

@@ -10,6 +10,12 @@ for (i = 0; i < 5; i++) {
 	} else {
 		if (name[i] == "carrot") {
 			drawInvenSlot(inven_carrot, i, select, string(inven[i]));
+		} else if (name[i] == "broccoli") {
+			drawInvenSlot(inven_broccoli,i,select,string(inven[i]));
+		} else if (name[i] == "apple") {
+			drawInvenSlot(inven_apple,i,select,string(inven[i]));
+		} else if (name[i] == "pickle") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
 		}
 	}
 }

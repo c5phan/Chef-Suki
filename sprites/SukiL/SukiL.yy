@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"SukiL",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":199,
   "bbox_left":0,
-  "bbox_right":62,
+  "bbox_right":182,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c87bbc4a-c094-4dd2-bcc6-016dc6ceb066","name":"c87bbc4a-c094-4dd2-bcc6-016dc6ceb066","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"373a17ca-7752-4a68-8017-cb6733ff6222","name":"373a17ca-7752-4a68-8017-cb6733ff6222","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":200,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e5753b8a-5bbc-49eb-91df-5f0374acd4cb","blendMode":0,"displayName":"default","isLocked":false,"name":"e5753b8a-5bbc-49eb-91df-5f0374acd4cb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1ab097c2-4716-4e91-a675-9935e98f0506","blendMode":0,"displayName":"default","isLocked":false,"name":"1ab097c2-4716-4e91-a675-9935e98f0506","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"SukiL",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c87bbc4a-c094-4dd2-bcc6-016dc6ceb066","path":"sprites/SukiL/SukiL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"754a18a8-301f-4f54-8362-e9f510d53cd2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"373a17ca-7752-4a68-8017-cb6733ff6222","path":"sprites/SukiL/SukiL.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"efc67c15-d655-4eb9-b511-8f3e11b67666","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":183,
 }

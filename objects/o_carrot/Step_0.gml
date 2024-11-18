@@ -2,11 +2,13 @@ var collect = keyboard_check_pressed(ord("E"));
 
 if (place_meeting(x,y,oPlayer_Side)) {
 	showConfirm = 1;
+	show_debug_message("carrot meet");
 } else {
 	showConfirm = 0;
+	show_debug_message("carrot off");
 }
 
-if (collect) {
+if (collect && showConfirm) {
 	found = 0;
 	for (i = 0; i < 5; i++) {
 		if (o_ingredients.name[i] == "carrot") {

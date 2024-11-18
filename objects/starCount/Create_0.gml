@@ -1,1 +1,1 @@
-stars = 0;
+stars = 56;

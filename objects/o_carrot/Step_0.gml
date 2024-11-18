@@ -2,10 +2,8 @@ var collect = keyboard_check_pressed(ord("E"));
 
 if (place_meeting(x,y,oPlayer_Side)) {
 	showConfirm = 1;
-	show_debug_message("carrot meet");
 } else {
 	showConfirm = 0;
-	show_debug_message("carrot off");
 }
 
 if (collect && showConfirm) {

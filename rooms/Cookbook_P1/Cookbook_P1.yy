@@ -63,8 +63,8 @@
   ],
   "name":"Cookbook_P1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Cookbook",
+    "path":"folders/Rooms/Cookbook.yy",
   },
   "parentRoom":{
     "name":"Cookbook_Base",

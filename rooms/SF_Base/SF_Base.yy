@@ -20,7 +20,7 @@
   "name":"SF_Base",
   "parent":{
     "name":"StewFridge",
-    "path":"folders/Rooms/StewFridge.yy",
+    "path":"folders/Rooms/Stew/StewFridge.yy",
   },
   "parentRoom":{
     "name":"Cookbook_Base",

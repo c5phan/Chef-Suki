@@ -1,0 +1,1 @@
+global.stars = 0;

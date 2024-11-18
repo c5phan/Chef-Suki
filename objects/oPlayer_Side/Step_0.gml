@@ -27,51 +27,54 @@ if (dash && left || dash && right) {
 }
 
 // Jumping
-if (jump && zSpeed == 0) {
-	zSpeed = jumpSpeed;
+if (jump && ySpeed == 0) {
+	ySpeed = jumpSpeed;
 }
 
 // Gravity
-if (z != zFloor) {
-	zSpeed += gameGravity;
+if (y != yFloor) {
+	ySpeed += gameGravity;
 }
 
 // Snap to ground
-if (z + zSpeed > zFloor) {
-	zSpeed = 0;
-	z = zFloor;
-}
-
-// Climbing *thnk this has to be in the code for the climbable object
-/*if (up) {
-	ySpeed = -moveSpeed;
-} 
-
-if (down) {
-	ySpeed = moveSpeed;
-}
-
-// stop moving when keys no longer pressed
-if (!up && !down || up && down) {
+if (y + ySpeed > yFloor) {
 	ySpeed = 0;
-}*/
+	y = yFloor;
+}
 
 
 // move along axis using Speed
-if (x + xSpeed < 0) {
+if (x + xSpeed < 0) { // left of room
 	x = 0;
-} else if (x + xSpeed > 1220) {
-	x = 1220;
+} else if (x + xSpeed > room_width - 60) { // right of room
+	x = room_width - 60;
 } else {
 	x += xSpeed;
 }
 
-if (y + ySpeed < 0) {
+platformBelow = instance_place(x, y + ySpeed, o_platform);
+if (ySpeed > 0) { // falling 
+	if (platformBelow == noone) { 
+		while (!place_meeting(x, y + 1, o_platform)) {
+			y++;
+			if (y > room_height) { break; }
+		}
+		ySpeed = 0;
+	}
+} 
+
+if (place_meeting(x, y + ySpeed, o_solid)) { // colliding with solid
+	y = y + ySpeed;
+	while (place_meeting(x, y, o_solid)) {
+	  y--;
+	}
+	ySpeed = 0;
+} 
+
+if (y + ySpeed < 0){ // top of room
 	y = 0;
-} else if (y + ySpeed > 660) {
-	y = 660;
+} else if (y + ySpeed > room_height - 60) { // bot of room
+	y = yFloor;
 } else {
 	y += ySpeed;
 }
-
-z += zSpeed;

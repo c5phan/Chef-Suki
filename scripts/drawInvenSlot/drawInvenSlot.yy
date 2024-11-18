@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"drawInvenSlot",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"drawInvenSlot",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -8,8 +8,8 @@
   "name":"o_quit_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ButtonObjs",
+    "path":"folders/Objects/ButtonObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

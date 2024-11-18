@@ -2,18 +2,13 @@ xSpeed = 0;
 ySpeed = 0;
 zSpeed = 0;
 
-// y
-y = 625;
-
 //Jumping
 moveSpeed = 2;
-jumpSpeed = -3.5;
+jumpSpeed = -8
 gameGravity = 0.25;
 
-// Z-axis
-z = 0;
-zHeight = -sprite_height / 2;
-zFloor = 0;
+yHeight = -sprite_height / 2;
+yFloor = y;
 
 // left
 look_left = false;

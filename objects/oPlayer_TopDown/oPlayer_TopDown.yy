@@ -10,8 +10,8 @@
   "name":"oPlayer_TopDown",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"PlayerObjs",
+    "path":"folders/Objects/PlayerObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SukiR",
-    "path":"sprites/SukiR/SukiR.yy",
+    "name":"SukiL",
+    "path":"sprites/SukiL/SukiL.yy",
   },
   "spriteMaskId":null,
   "visible":true,

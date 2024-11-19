@@ -17,19 +17,51 @@ for (i = 0; i < 5; i++) {
 		} else if (name[i] == "pickle") {
 			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
 		} else if (name[i] == "bpepper") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+			drawInvenSlot(inven_bpepper,i,select,string(inven[i]));
 		} else if (name[i] == "egg") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+			drawInvenSlot(inven_egg,i,select,string(inven[i]));
 		} else if (name[i] == "hummus") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+			drawInvenSlot(inven_hummus,i,select,string(inven[i]));
 		} else if (name[i] == "pastry") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+			drawInvenSlot(inven_pastry,i,select,string(inven[i]));
 		} else if (name[i] == "salsa") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+			drawInvenSlot(inven_salsa,i,select,string(inven[i]));
 		} else if (name[i] == "sourcream") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+			drawInvenSlot(inven_sourcream,i,select,string(inven[i]));
 		} else if (name[i] == "stock") {
-			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
-		} 
+			drawInvenSlot(inven_stock,i,select,string(inven[i]));
+		} else if (name[i] == "celery") {
+			drawInvenSlot(inven_celery,i,select,string(inven[i]));
+		} else if (name[i] == "hcream") {
+			drawInvenSlot(inven_hcream,i,select,string(inven[i]));
+		} else if (name[i] == "chicken") {
+			drawInvenSlot(inven_chicken,i,select,string(inven[i]));
+		} else if (name[i] == "milk") {
+			drawInvenSlot(inven_milk,i,select,string(inven[i]));
+		} else if (name[i] == "cheese") {
+			drawInvenSlot(inven_cheese,i,select,string(inven[i]));
+		} else if (name[i] == "ronion") {
+			drawInvenSlot(inven_ronion,i,select,string(inven[i]));
+		} else if (name[i] == "mayo") {
+			drawInvenSlot(inven_mayo,i,select,string(inven[i]));
+		} else if (name[i] == "yogurt") {
+			drawInvenSlot(inven_yogurt,i,select,string(inven[i]));
+		} else if (name[i] == "strawberry") {
+			drawInvenSlot(inven_strawberry,i,select,string(inven[i]));
+		} else if (name[i] == "blueberry") {
+			drawInvenSlot(inven_blueberry,i,select,string(inven[i]));
+		} else if (name[i] == "tomato") {
+			drawInvenSlot(inven_tomato,i,select,string(inven[i]));
+		} else if (name[i] == "bacon") {
+			drawInvenSlot(inven_bacon,i,select,string(inven[i]));
+		} else if (name[i] == "potato") {
+			drawInvenSlot(inven_potato,i,select,string(inven[i]));
+		} else if (name[i] == "pasta") {
+			drawInvenSlot(inven_pasta,i,select,string(inven[i]));
+		} else if (name[i] == "butter") {
+			drawInvenSlot(inven_butter,i,select,string(inven[i]));
+		} else if (name[i] == "juice") {
+			drawInvenSlot(inven_juice,i,select,string(inven[i]));
+		}
 	}
 }

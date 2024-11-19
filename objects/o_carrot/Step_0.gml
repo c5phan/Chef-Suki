@@ -17,7 +17,7 @@ if (collect && showConfirm) {
 			break;
 		}
 	}
-	if (!found && o_ingredients.unique < 6) { // not full and didnt add
+	if (!found && o_ingredients.unique < 5) { // not full and didnt add
 		o_ingredients.unique++;
 		o_ingredients.inven[o_ingredients.unique - 1]++;
 		o_ingredients.name[o_ingredients.unique - 1] = "carrot";

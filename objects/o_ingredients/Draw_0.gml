@@ -16,6 +16,20 @@ for (i = 0; i < 5; i++) {
 			drawInvenSlot(inven_apple,i,select,string(inven[i]));
 		} else if (name[i] == "pickle") {
 			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
-		}
+		} else if (name[i] == "bpepper") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} else if (name[i] == "egg") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} else if (name[i] == "hummus") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} else if (name[i] == "pastry") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} else if (name[i] == "salsa") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} else if (name[i] == "sourcream") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} else if (name[i] == "stock") {
+			drawInvenSlot(inven_pickle,i,select,string(inven[i]));
+		} 
 	}
 }

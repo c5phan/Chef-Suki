@@ -4,6 +4,9 @@ if (drop) {
 	if (inven[select] > 0)
 	{
 		inven[select]--;
+		if (inven[select] == 0) { // dropped everything
+			unique--;
+		}
 	}
 }
 

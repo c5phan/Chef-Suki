@@ -1,1 +1,1 @@
-room_goto(Intro_Cutscene);
+pressed = 1;

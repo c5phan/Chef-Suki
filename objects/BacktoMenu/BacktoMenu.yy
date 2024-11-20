@@ -8,8 +8,8 @@
   "name":"BacktoMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"ControlObjs",
-    "path":"folders/Objects/ControlObjs.yy",
+    "name":"ButtonObjs",
+    "path":"folders/Objects/ButtonObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

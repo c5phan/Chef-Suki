@@ -1,1 +1,1 @@
-stars = SF_stars + QF_stars + MF_stars;
+stars = 6;

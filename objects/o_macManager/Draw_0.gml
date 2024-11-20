@@ -1,8 +1,12 @@
 
 if (!end_level) { // Fridge level
+	// ExitFridge
+	draw_sprite_ext(ExitLevel, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110,
+					camera_get_view_y(view_camera[0]) + 10,0.5,0.5,0,-1,1);
+	
 	// Task
 	draw_sprite_ext(MFTask, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 120,
-					camera_get_view_y(view_camera[0]),0.5,0.5,0,-1,1)
+					camera_get_view_y(view_camera[0]),0.5,0.5,0,-1,1);
 
 	// Inventory
 	// need to add if so its only draws when in fridge

@@ -29,5 +29,5 @@ if (holdspace > 80 || xpos < 100) {
 }
 
 if (a == 1 && fadeout == 1) {
-	room_goto(Cookbook_P1);
+	room_goto(StartMenu);
 }

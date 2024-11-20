@@ -1,4 +1,4 @@
 if (!variable_global_exists("initialized")) {
-	stars = 0;
+	stars = 9;
 	initialized = true;
 }

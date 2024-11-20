@@ -3,7 +3,7 @@
 timer--;
 
 var manager= o_stewManager; // default
-if (room == QF_Shelf1) {
+if (room == QF_Shelf1 || QF_Shelf4) {
 	manager = o_quicheManager;
 }
 

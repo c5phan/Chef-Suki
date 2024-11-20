@@ -1,1 +1,3 @@
-room_goto(Controls_P5);
+if (timer <= 50) {
+	room_goto(Controls_P5);
+}

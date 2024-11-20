@@ -3,7 +3,9 @@ draw_sprite_ext(StewTask, 0, camera_get_view_x(view_camera[0]) + camera_get_view
 				camera_get_view_y(view_camera[0]),0.5,0.5,0,-1,1)
 
 // Inventory
-for (i = 0; i < 5; i++) {
+
+// need to add if so its only draws when in fridge
+for (i = 0; i < 6; i++) {
 	if (inven[i] == 0) {
 		name[i] = "";
 		drawInvenSlot(inven_empty, i, select, string(0));

@@ -9,8 +9,8 @@
   "name":"SExitTo4",
   "overriddenProperties":[],
   "parent":{
-    "name":"StewExits",
-    "path":"folders/Objects/FridgeObjs/StewExits.yy",
+    "name":"FStewExits",
+    "path":"folders/Objects/FridgeObjs/FStewExits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

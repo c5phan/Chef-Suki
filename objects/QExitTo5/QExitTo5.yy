@@ -9,8 +9,8 @@
   "name":"QExitTo5",
   "overriddenProperties":[],
   "parent":{
-    "name":"QuicheExits",
-    "path":"folders/Objects/FridgeObjs/QuicheExits.yy",
+    "name":"FQuicheExits",
+    "path":"folders/Objects/FridgeObjs/FQuicheExits.yy",
   },
   "parentObjectId":null,
   "persistent":false,

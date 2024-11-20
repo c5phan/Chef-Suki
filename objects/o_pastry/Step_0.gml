@@ -10,6 +10,9 @@ var manager = o_stewManager; // default Stew fridge
 if (room = QF_Shelf5) {
 	manager = o_quicheManager;
 }
+if (room = MF_Shelf4) {
+	manager = o_macManager;
+}
 
 if (collect && showConfirm) {
 	invenManage(o_pastry, manager, "pastry");

@@ -3,8 +3,14 @@
 timer--;
 
 var manager= o_stewManager; // default
-if (room == QF_Shelf1 || QF_Shelf4) {
+if (room == SF_Shelf3) {
+	manager =  o_stewManager;
+}
+if (room == QF_Shelf1 || room == QF_Shelf4) {
 	manager = o_quicheManager;
+}
+if (room == MF_Shelf1 || room == MF_Shelf5 || room == MF_Shelf4) {
+	manager = o_macManager;
 }
 
 if (timer <= 90) {  // check if in hit box during the 1.5 secs

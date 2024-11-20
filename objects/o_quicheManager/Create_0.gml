@@ -18,10 +18,12 @@ if (!variable_global_exists("initialized")) {
     end_level = 0;
 	
 	// recipe needs
-    needed_carrot = 0;
-    needed_broccoli = 0;
-    needed_apple = 0;
-    needed_pickle = 0;
+    need_egg = 1;
+    need_hcream = 1;
+    need_bpepper = 1;
+    need_cheese = 1;
+	need_pastry = 1;
+	need_bacon = 1;
 
     initialized = true;
 }

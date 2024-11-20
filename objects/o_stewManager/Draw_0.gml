@@ -1,6 +1,6 @@
 if (!end_level) { // Fridge level
 	// Task
-	draw_sprite_ext(StewTask, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110,
+	draw_sprite_ext(SFTask, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 120,
 					camera_get_view_y(view_camera[0]),0.5,0.5,0,-1,1)
 
 	// Inventory
@@ -68,4 +68,4 @@ if (!end_level) { // Fridge level
 			}
 		}
 	}
-} 
+}

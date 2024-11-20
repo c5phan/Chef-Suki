@@ -45,8 +45,8 @@
     "path":"folders/Rooms/Stew/StewFridge.yy",
   },
   "parentRoom":{
-    "name":"SF_Base",
-    "path":"rooms/SF_Base/SF_Base.yy",
+    "name":"Stew_Base",
+    "path":"rooms/Stew_Base/Stew_Base.yy",
   },
   "physicsSettings":{
     "inheritPhysicsSettings":true,

@@ -10,8 +10,8 @@
   "name":"o_hcream",
   "overriddenProperties":[],
   "parent":{
-    "name":"FridgeObjs",
-    "path":"folders/Objects/FridgeObjs.yy",
+    "name":"Ingredients",
+    "path":"folders/Objects/FridgeObjs/Ingredients.yy",
   },
   "parentObjectId":null,
   "persistent":false,

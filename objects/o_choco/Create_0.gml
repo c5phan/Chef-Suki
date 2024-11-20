@@ -1,4 +1,4 @@
-time = 600; // 10 seconds
+time = 480; // every 8 seconds choco hits
 timer = time;
 
 

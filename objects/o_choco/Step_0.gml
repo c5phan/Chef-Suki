@@ -2,13 +2,22 @@
 // You can write your code in this editor
 timer--;
 
-if (timer == 0) {
+var manager= o_stewManager; // default
+if (room == QF_Shelf1) {
+	manager = o_quicheManager;
+}
+
+if (timer <= 90) {  // check if in hit box during the 1.5 secs
 	if (place_meeting(x,y,oPlayer_Side)) {
 		// suki got hit by choco so empty inventory
 		for (i = 0; i < 6; i++) {
-			o_ingredients.inven[i] = 0;
-			o_ingredients.name[i] = "";
+			manager.inven[i] = 0;
+			manager.name[i] = "";
 		}
+		manager.unique = 0;
 	}
+}
+
+if (timer == 0) {
 	timer = time;
 }

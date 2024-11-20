@@ -6,27 +6,11 @@ if (place_meeting(x,y,oPlayer_Side)) {
 	showConfirm = 0;
 }
 
+var manager = o_stewManager; // default Stew fridge
+if (room = QF_Shelf4) {
+	manager = o_quicheManager;
+}
+
 if (collect && showConfirm) {
-	found = 0;
-	for (i = 0; i < 6; i++) {
-		if (o_ingredients.name[i] == "butter") {
-			found = 1;
-			if (o_ingredients.inven[i] < 12) { // check if in inventory
-				o_ingredients.inven[i]++;
-			}
-			break;
-		}
-	}
-	if (!found && o_ingredients.unique < 6) { // not full and didnt add
-		// find first empty
-		for (i = 0; i < 6; i++) {
-			if (o_ingredients.inven[i] == 0) {
-				o_ingredients.unique++;
-				o_ingredients.inven[i]++;
-				o_ingredients.name[i] = "butter";
-				break;
-			}
-		}
-	}
-	holdE = 0;
+	invenManage(o_butter, manager, "butter");
 }

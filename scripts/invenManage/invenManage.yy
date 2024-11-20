@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"invenManage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"invenManage",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"start_btn",
-    "path":"sprites/start_btn/start_btn.yy",
+    "name":"sNext",
+    "path":"sprites/sNext/sNext.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

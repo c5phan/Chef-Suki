@@ -42,6 +42,6 @@ if (place_meeting(x,y,oPlayer_Side)) {
 		point += 0.5;
 	}
 		
-	starCount.MF_stars = floor(points); // round down
+	starCount.MF_stars = floor(point); // round down
 	room_goto(Cookbook_P3);
 } 

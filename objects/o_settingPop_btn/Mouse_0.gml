@@ -1,3 +1,4 @@
+// creating popups for the fridge levels
 if ((room != Cookbook_P1 && room != Cookbook_P2) && (room != Cookbook_P3 && !created)) {
 	// move with camera
 	x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110;
@@ -39,7 +40,8 @@ if ((room != Cookbook_P1 && room != Cookbook_P2) && (room != Cookbook_P3 && !cre
 	
 } 
 
-if (room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3) { // cookbook room
+// creating popup for cookbook pages
+if (room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3) { 
 	_e = instance_create_layer(752,272,"Setting_Popup",o_sndEffects);
 	_m = instance_create_layer(752,360,"Setting_Popup",o_sndMusic);
 	_q = instance_create_layer(656,448,"Setting_Popup",o_quit);

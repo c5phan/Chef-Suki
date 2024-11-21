@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// used to determine whether to add the ingredient from collection into the inventory
 function invenManage(_obj, _manager, ingr){
 	_obj.found = 0;
 	for (i = 0; i < 6; i++) {

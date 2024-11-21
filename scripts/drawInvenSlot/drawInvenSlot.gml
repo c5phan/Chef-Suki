@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// draws the inven sprite in the top left corner for the designated ingridient
 function drawInvenSlot(_sprite, _index, _select, _amount) {
 	draw_sprite_ext(_sprite, 0, camera_get_view_x(view_camera[0]) + 32 * _index,
 						camera_get_view_y(view_camera[0]),0.5,0.5,0,-1,1);

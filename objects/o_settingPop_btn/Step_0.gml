@@ -3,6 +3,7 @@ if ((room != Cookbook_P1 && room != Cookbook_P2) && room != Cookbook_P3) {
 	x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110;
 	y = camera_get_view_y(view_camera[0]) + 25;
 	
+	// want to move the instaces part of the pop up along with the camera
 	if (created) {
 		_e.x = camera_get_view_x(view_camera[0]) + 376;
 		_e.y = camera_get_view_y(view_camera[0]) + 136;

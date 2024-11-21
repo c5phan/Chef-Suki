@@ -10,8 +10,8 @@
   "name":"o_settingPop_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"ButtonObjs",
-    "path":"folders/Objects/ButtonObjs.yy",
+    "name":"Sound",
+    "path":"folders/Objects/Sound.yy",
   },
   "parentObjectId":null,
   "persistent":false,

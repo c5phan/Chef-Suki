@@ -9,8 +9,8 @@
   "name":"o_popDestroy",
   "overriddenProperties":[],
   "parent":{
-    "name":"ButtonObjs",
-    "path":"folders/Objects/ButtonObjs.yy",
+    "name":"Sound",
+    "path":"folders/Objects/Sound.yy",
   },
   "parentObjectId":null,
   "persistent":false,

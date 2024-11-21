@@ -15,7 +15,7 @@ if (!variable_global_exists("initialized")) {
 	name[5] = "";
 
     select = 0;
-    end_level = 0;
+    end_level = 1;
 	
 	// recipe needs
     need_stock = 1;

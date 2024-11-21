@@ -51,5 +51,5 @@ if (entered) {
 }
 
 if (a == 1) {
-	room_goto(Cookbook_P1);
+	room_goto(Scut);
 }

@@ -68,6 +68,7 @@
     {"name":"o_chicken","order":9,"path":"objects/o_chicken/o_chicken.yy",},
     {"name":"o_choco","order":33,"path":"objects/o_choco/o_choco.yy",},
     {"name":"o_egg","order":10,"path":"objects/o_egg/o_egg.yy",},
+    {"name":"o_global","order":18,"path":"objects/o_global/o_global.yy",},
     {"name":"o_hcream","order":11,"path":"objects/o_hcream/o_hcream.yy",},
     {"name":"o_hummus","order":12,"path":"objects/o_hummus/o_hummus.yy",},
     {"name":"o_juice","order":13,"path":"objects/o_juice/o_juice.yy",},

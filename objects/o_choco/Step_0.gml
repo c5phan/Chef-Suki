@@ -26,4 +26,5 @@ if (timer <= 90) {  // check if in hit box during the 1.5 secs
 
 if (timer == 0) {
 	timer = time;
+	sndPlayed = 0;
 }

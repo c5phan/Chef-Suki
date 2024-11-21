@@ -1,4 +1,4 @@
-if (place_meeting(x,y,oPlayer_Side)) {
+if (place_meeting(x,y,oPlayer_Side) && !entered) {
 	o_stewManager.end_level = 1;
 	
 	for (i = 0; i < 6; i++) {
@@ -41,7 +41,15 @@ if (place_meeting(x,y,oPlayer_Side)) {
 	if (got_ronion == o_stewManager.need_ronion) {
 		point += 0.5;
 	}
-		
+	
 	starCount.SF_stars = floor(point); // round down
-	room_goto(Cookbook_P1);
+	entered = 1;
 } 
+
+if (entered) {
+	a = min(a+0.015, 1)
+}
+
+if (a == 1) {
+	room_goto(Cookbook_P1);
+}

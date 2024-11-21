@@ -5,3 +5,6 @@ got_celery = 0;
 got_potato = 0;
 got_ronion = 0;
 point = 0; // each correct is 0.5
+entered = 0;
+a = 0;
+fadeout = 0;

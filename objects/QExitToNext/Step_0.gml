@@ -43,5 +43,13 @@ if (place_meeting(x,y,oPlayer_Side)) {
 	}
 		
 	starCount.QF_stars = floor(point); // round down
-	room_goto(Cookbook_P2);
+	entered = 1;
 } 
+
+if (entered) {
+	a = min(a+0.015, 1)
+}
+
+if (a == 1) {
+	room_goto(Cookbook_P2);
+}

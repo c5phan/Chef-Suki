@@ -1,0 +1,1 @@
+// keeps sprite being visible

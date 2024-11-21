@@ -4,24 +4,27 @@
   "creationCodeFile":"",
   "inheritCode":true,
   "inheritCreationOrder":true,
-  "inheritLayers":true,
+  "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_7AB16F60","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
     {"name":"inst_88A4C19","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
     {"name":"inst_6D0B1F5A","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
     {"name":"inst_37A67A0D","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
     {"name":"inst_3DA33108","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
+    {"name":"inst_7BC1C4AE","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_7AB16F60","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_7AB16F60","path":"rooms/Cookbook_Base/Cookbook_Base.yy",},"inheritItemSettings":true,"isDnd":false,"name":"inst_7AB16F60","objectId":{"name":"o_setting_btn","path":"objects/o_setting_btn/o_setting_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5983263,"scaleY":0.57894737,"x":64.0,"y":32.0,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_88A4C19","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_88A4C19","objectId":{"name":"Exit2to1","path":"objects/Exit2to1/Exit2to1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_37A67A0D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37A67A0D","objectId":{"name":"Exit2to3","path":"objects/Exit2to3/Exit2to3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_3DA33108","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DA33108","objectId":{"name":"oQuiche","path":"objects/oQuiche/oQuiche.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.24705882,"scaleY":0.23999998,"x":736.0,"y":160.0,},
-        {"$GMRInstance":"v1","%Name":"inst_6D0B1F5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6D0B1F5A","path":"rooms/Cookbook_Base/Cookbook_Base.yy",},"inheritItemSettings":true,"isDnd":false,"name":"inst_6D0B1F5A","objectId":{"name":"oPlayer_TopDown","path":"objects/oPlayer_TopDown/oPlayer_TopDown.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6D0B1F5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6D0B1F5A","path":"rooms/Cookbook_Base/Cookbook_Base.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6D0B1F5A","objectId":{"name":"oPlayer_TopDown","path":"objects/oPlayer_TopDown/oPlayer_TopDown.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7BC1C4AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_7BC1C4AE","path":"rooms/Cookbook_Base/Cookbook_Base.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_7BC1C4AE","objectId":{"name":"BacktoMenu","path":"objects/BacktoMenu/BacktoMenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":64.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
+    {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
+        {"$GMRSpriteGraphic":"","%Name":"graphic_6D6140BB","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6D6140BB","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"ExitLevel","path":"sprites/ExitLevel/ExitLevel.yy",},"x":64.0,"y":32.0,},
+      ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":45,"SerialiseWidth":80,"TileCompressedData":[
           -236,-2147483648,-2,0,-78,-2147483648,-4,0,-3,-2147483648,2,0,4,-35,2,2,3,4,-33,2,1,3,-4,0,-2,-2147483648,
           -2,0,1,8,-15,5,-20,10,2,7,8,-33,10,1,7,-4,0,-2,-2147483648,-2,0,1,8,-15,5,-20,10,2,7,8,-33,10,1,7,-4,
           0,-2,-2147483648,-2,0,1,8,-6,5,-24,9,-5,10,2,7,8,-33,10,1,7,-4,0,-2,-2147483648,-2,0,1,8,-6,5,-24,9,
@@ -51,7 +54,7 @@
           2,0,8,-4,10,-31,9,2,7,8,-33,9,1,11,-4,0,-3,-2147483648,2,0,8,-35,9,2,7,8,-28,9,1,10,-4,9,1,11,-4,0,-3,
           -2147483648,2,0,12,-35,14,2,15,12,-33,14,1,15,-4,0,-3,-2147483648,-77,0,-3,-2147483648,-77,0,-80,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"page_tl","path":"tilesets/page_tl/page_tl.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
           -82,1,-36,-2147483648,-2,2,-2,1,1,2,-35,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,
           -2,2,-2,1,-7,-2147483648,1,3,-28,-2147483648,-2,2,-2,1,-8,-2147483648,1,3,-27,-2147483648,-2,2,-2,1,
           -36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-9,-2147483648,1,3,-26,-2147483648,-2,2,-2,1,-36,
@@ -59,7 +62,7 @@
           -36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,
           1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-42,2,-40,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"start_wood","path":"tilesets/start_wood/start_wood.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Cookbook_P2",
   "parent":{

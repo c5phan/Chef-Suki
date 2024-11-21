@@ -15,6 +15,6 @@ if (holdE > 10) {
 	a = min(a+0.015, 1)
 }
 
-if (a = 1) {
+if (a == 1) {
 	room_goto(SF_Shelf1);
 }

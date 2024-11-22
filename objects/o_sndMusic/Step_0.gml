@@ -1,4 +1,5 @@
 cooldown--;
+
 if (!on) {
 	variable_global_set("music", 0);
 } else {

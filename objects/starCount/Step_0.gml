@@ -1,1 +1,3 @@
-stars = 6 + SF_stars + QF_stars + MF_stars;
+S_final = floor((SF_stars + SCut_stars + SSwipe_stars + SStir_stars)/4); // average
+
+stars = 6 + S_final + Q_final + M_final;

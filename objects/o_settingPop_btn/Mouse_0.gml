@@ -62,6 +62,17 @@ if ((room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3 ||
 	_d.caller = id;
 	
 	created = 1;
+	
+	// need to pause timer for cut, swipe and stir levels
+	if (room == Scut) {
+		o_cutManager.pause = 1;
+	}
+	if (room == SPotSwipe) {
+		o_swipeManager.pause = 1;
+	}
+	if (room == SPotStir) {
+		o_stirManager.pause = 1;
+	}
 } 
 
 

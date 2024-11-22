@@ -118,6 +118,7 @@
     {"name":"o_solid","order":13,"path":"objects/o_solid/o_solid.yy",},
     {"name":"o_sourcream","order":22,"path":"objects/o_sourcream/o_sourcream.yy",},
     {"name":"o_stirGoal","order":2,"path":"objects/o_stirGoal/o_stirGoal.yy",},
+    {"name":"o_stirManager","order":3,"path":"objects/o_stirManager/o_stirManager.yy",},
     {"name":"o_stock","order":23,"path":"objects/o_stock/o_stock.yy",},
     {"name":"o_strawberry","order":24,"path":"objects/o_strawberry/o_strawberry.yy",},
     {"name":"o_swipeCarrot","order":2,"path":"objects/o_swipeCarrot/o_swipeCarrot.yy",},

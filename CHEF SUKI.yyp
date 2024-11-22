@@ -144,6 +144,7 @@
     {"id":{"name":"o_sourcream","path":"objects/o_sourcream/o_sourcream.yy",},},
     {"id":{"name":"o_stewManager","path":"objects/o_stewManager/o_stewManager.yy",},},
     {"id":{"name":"o_stirGoal","path":"objects/o_stirGoal/o_stirGoal.yy",},},
+    {"id":{"name":"o_stirManager","path":"objects/o_stirManager/o_stirManager.yy",},},
     {"id":{"name":"o_stock","path":"objects/o_stock/o_stock.yy",},},
     {"id":{"name":"o_strawberry","path":"objects/o_strawberry/o_strawberry.yy",},},
     {"id":{"name":"o_swipeCarrot","path":"objects/o_swipeCarrot/o_swipeCarrot.yy",},},

@@ -1,5 +1,6 @@
 if (!drag) {
- if (mouse_check_button_pressed(mb_left) && point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_width)) {
+ if (mouse_check_button_pressed(mb_left) && 
+	point_in_rectangle(mouse_x, mouse_y, x, y, x + sprite_width, y + sprite_width)) {
   drag = true;
   mx = x - mouse_x;
   my = y - mouse_y;

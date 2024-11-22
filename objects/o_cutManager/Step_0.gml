@@ -3,5 +3,5 @@ if (currentCut == "done") {
 }
 
 if (a == 1) {
-	room_goto(SPot);
+	room_goto(SPotSwipe);
 }

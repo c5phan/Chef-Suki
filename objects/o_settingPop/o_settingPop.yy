@@ -6,8 +6,8 @@
   "name":"o_settingPop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Sound",
+    "path":"folders/Objects/Sound.yy",
   },
   "parentObjectId":null,
   "persistent":false,

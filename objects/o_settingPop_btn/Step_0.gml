@@ -1,5 +1,5 @@
 if ((room != Cookbook_P1 && room != Cookbook_P2) && room != Cookbook_P3) {
-	if (room != Scut && room != SPot) {
+	if (room != Scut && room != SPotSwipe) {
 		// move with camera
 		x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110;
 		y = camera_get_view_y(view_camera[0]) + 25;

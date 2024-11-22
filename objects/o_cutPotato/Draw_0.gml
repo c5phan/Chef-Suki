@@ -40,7 +40,7 @@ if (o_cutManager.currentCut == "potato") {
 			draw_sprite(Knife,0,568,272);
 			timer--;
 		} else if (timer >= 10) { // display final cut for a few seconds
-			draw_sprite(cutPotato_P1,0,30,0);
+			draw_sprite(cutPotato_P1,0,40,0);
 			draw_sprite(cutPotato_P2,0,56,0);
 			draw_sprite(cutPotato_P3,0,70,0);
 			draw_sprite(cutPotato_P4,0,80,0);

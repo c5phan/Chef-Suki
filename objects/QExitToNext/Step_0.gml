@@ -51,5 +51,6 @@ if (entered) {
 }
 
 if (a == 1) {
-	room_goto(Cookbook_P2);
+	show_debug_message(o_quicheManager.end_level);
+	room_goto(QCut);
 }

@@ -7,7 +7,7 @@ instance_destroy(pop);
 caller.created = 0;
 
 // need to turn pause off
-	if (room == Scut) {
+	if (room == SCut) {
 		o_cutManager.pause = 0;
 	}
 	if (room == SPotSwipe) {

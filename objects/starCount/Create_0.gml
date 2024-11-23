@@ -10,6 +10,11 @@ if (!variable_global_exists("initialized")) {
 	
 	// Quiche stars
 	QF_stars = 0;
+	QCut_stars = 0;
+	QSwipe_stars = 0;
+	QStir_stars = 0;
+	QPour_stars = 0;
+	QBake_stars = 0;
 	Q_final = 0;
 	
 	// Mac Stars

@@ -16,5 +16,5 @@ if (holdE > 10) {
 }
 
 if (a == 1) {
-	room_goto(QF_Shelf1);
+	room_goto(QCut);
 }

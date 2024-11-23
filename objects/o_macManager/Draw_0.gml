@@ -1,4 +1,3 @@
-
 if (!end_level) { // Fridge level
 	// ExitFridge
 	draw_sprite_ext(ExitLevel, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110,

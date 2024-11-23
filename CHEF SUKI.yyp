@@ -154,6 +154,7 @@
     {"id":{"name":"o_pourCream","path":"objects/o_pourCream/o_pourCream.yy",},},
     {"id":{"name":"o_pourQuiche","path":"objects/o_pourQuiche/o_pourQuiche.yy",},},
     {"id":{"name":"o_pourStock","path":"objects/o_pourStock/o_pourStock.yy",},},
+    {"id":{"name":"o_quicheBake","path":"objects/o_quicheBake/o_quicheBake.yy",},},
     {"id":{"name":"o_quicheManager","path":"objects/o_quicheManager/o_quicheManager.yy",},},
     {"id":{"name":"o_quit","path":"objects/o_quit/o_quit.yy",},},
     {"id":{"name":"o_ronion","path":"objects/o_ronion/o_ronion.yy",},},

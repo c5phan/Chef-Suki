@@ -35,8 +35,10 @@ if (a == 1) {
 			starCount.QStir_stars = 3;
 		} else if (current > floor(maxStep/2)) {
 			starCount.QStir_stars = 2;
-		} else {
+		} else if (current > 0) {
 			starCount.QStir_stars = 1;
+		} else {
+			starCount.QStir_stars = 0;
 		}
 		room_goto(QPour);
 	}

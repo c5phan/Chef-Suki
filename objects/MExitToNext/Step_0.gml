@@ -22,6 +22,14 @@ if (place_meeting(x,y,oPlayer_Side)) {
 		}
 	}
 		
+	entered = 1;
+} 
+
+if (entered) {
+	a = min(a+0.015, 1)
+}
+
+if (a == 1) {
 	// determine star
 	if (got_pasta == o_macManager.need_pasta) {
 		point += 0.5;
@@ -43,13 +51,6 @@ if (place_meeting(x,y,oPlayer_Side)) {
 	}
 		
 	starCount.MF_stars = floor(point); // round down
-	entered = 1;
-} 
-
-if (entered) {
-	a = min(a+0.015, 1)
-}
-
-if (a == 1) {
+	
 	room_goto(Cookbook_P3);
 }

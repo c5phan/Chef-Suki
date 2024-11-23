@@ -18,12 +18,13 @@ if (a == 1) {
 	if (room == SSwipe) {
 		if (current == "done") {
 			starCount.SSwipe_stars = 3;
-		} else if (current == "stock" || current == "chicken" || current == "potato") {
+		} else if (current == "stock" || current == "potato") {
 			starCount.SSwipe_stars = 2;
-		} else { // carrot and ronion
+		} else if (current == "ronion" || current == "chicken") { // carrot and ronion
 			starCount.SSwipe_stars = 1;
+		} else { // carrot
+			starCount.SSwipe_stars = 0;
 		}
-		show_debug_message(starCount.SSwipe_stars);
 		room_goto(SStir);
 	}
 	if (room = QSwipe) {
@@ -31,10 +32,11 @@ if (a == 1) {
 			starCount.QSwipe_stars = 3;
 		} else if (current == "cream" || current == "egg") {
 			starCount.QSwipe_stars = 2;
-		} else { 
+		} else if (curent == "cheese") { 
 			starCount.QSwipe_stars = 1;
+		} else { //bacon
+			starCount.QSwipe_stars = 0;
 		}
-		show_debug_message(starCount.QSwipe_stars);
 		room_goto(QStir);
 	}
 }

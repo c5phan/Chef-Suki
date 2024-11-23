@@ -21,7 +21,14 @@ if (place_meeting(x,y,oPlayer_Side)) {
 			got_bacon = o_quicheManager.inven[i];
 		}
 	}
-		
+	entered = 1;
+} 
+
+if (entered) {
+	a = min(a+0.015, 1)
+}
+
+if (a == 1) {
 	// determine star
 	if (got_egg == o_quicheManager.need_egg) {
 		point += 0.5;
@@ -43,14 +50,5 @@ if (place_meeting(x,y,oPlayer_Side)) {
 	}
 		
 	starCount.QF_stars = floor(point); // round down
-	entered = 1;
-} 
-
-if (entered) {
-	a = min(a+0.015, 1)
-}
-
-if (a == 1) {
-	show_debug_message(o_quicheManager.end_level);
 	room_goto(QCut);
 }

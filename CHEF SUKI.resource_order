@@ -128,6 +128,7 @@
     {"name":"o_potato","order":19,"path":"objects/o_potato/o_potato.yy",},
     {"name":"o_pourCream","order":12,"path":"objects/o_pourCream/o_pourCream.yy",},
     {"name":"o_pourStock","order":7,"path":"objects/o_pourStock/o_pourStock.yy",},
+    {"name":"o_quicheBake","order":4,"path":"objects/o_quicheBake/o_quicheBake.yy",},
     {"name":"o_quicheManager","order":1,"path":"objects/o_quicheManager/o_quicheManager.yy",},
     {"name":"o_quit","order":4,"path":"objects/o_quit/o_quit.yy",},
     {"name":"o_ronion","order":20,"path":"objects/o_ronion/o_ronion.yy",},

@@ -18,10 +18,11 @@ if (a == 1) {
 			starCount.SCut_stars = 3;
 		} else if (currentCut == "ronion" || currentCut == "chicken") {
 			starCount.SCut_stars = 2;
-		} else {
+		} else if (currentCut == "potato") {
 			starCount.SCut_stars = 1;
+		} else { // carrot
+			starCount.SCut_stars = 0;
 		}
-		show_debug_message(starCount.SCut_stars);
 		room_goto(SSwipe);
 	}
 	if (room == QCut) {
@@ -29,10 +30,9 @@ if (a == 1) {
 			starCount.QCut_stars = 3;
 		} else if (currentCut == "cheese") {
 			starCount.QCut_stars = 2;
-		} else {
+		} else { // bacon
 			starCount.QCut_stars = 1;
 		}
-		show_debug_message(starCount.QCut_stars);
 		room_goto(QSwipe);
 	}
 }

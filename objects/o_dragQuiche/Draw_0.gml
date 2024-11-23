@@ -16,8 +16,8 @@ if (cooked) {
 	}
 }
 
-if (burnt && o_OpenClose.open == 1) {
-	if (in_oven) {
+if (burnt) {
+	if (in_oven && o_OpenClose.open == 1) {
 		draw_sprite_ext(BurntQuiche, 0, x, y,0.5,0.5,0,-1,1);
 	} 
 	if (!in_oven) {

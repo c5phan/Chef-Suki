@@ -33,6 +33,6 @@ if (a == 1) {
 			starCount.QCut_stars = 1;
 		}
 		show_debug_message(starCount.QCut_stars);
-		room_goto(Cookbook_P2);
+		room_goto(QSwipe);
 	}
 }

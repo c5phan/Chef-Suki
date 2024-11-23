@@ -2,14 +2,6 @@ if (level_timer > 0 && !pause) {
 	level_timer--;
 }
 
-if (room == SPotStir) { // this bound is same for all pot stir rooms
-	maxStep = 20;
-	boundX1 = 340;
-	boundX2 = 1200;
-	boundY1 = 40;
-	boundY2 = 320;
-}
-
 // if the player finishes all stirs, or the level timer runs out
 if (current == maxStep || destroyed) {
 	timer--;

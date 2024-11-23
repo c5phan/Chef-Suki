@@ -26,4 +26,15 @@ if (a == 1) {
 		show_debug_message(starCount.SSwipe_stars);
 		room_goto(SPotStir);
 	}
+	if (room = QSwipe) {
+		if (current == "done") {
+			starCount.QSwipe_stars = 3;
+		} else if (current == "cream" || current == "egg") {
+			starCount.QSwipe_stars = 2;
+		} else { 
+			starCount.QSwipe_stars = 1;
+		}
+		show_debug_message(starCount.QSwipe_stars);
+		room_goto(QStir);
+	}
 }

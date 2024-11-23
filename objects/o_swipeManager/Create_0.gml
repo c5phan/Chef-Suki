@@ -4,7 +4,7 @@ level_timer = 1200; // 20 seconds
 timer = 60; // buffer before fade
 pause = 0;
 
-if (room == SPotSwipe) {
+if (room == SSwipe) {
 	current = "carrot";
 	o_stewManager.end_level = 1;
 }

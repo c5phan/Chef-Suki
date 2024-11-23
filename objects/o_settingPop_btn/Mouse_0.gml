@@ -1,6 +1,6 @@
 // creating popups for the fridge levels
 if ((room != Cookbook_P1 && room != Cookbook_P2) && (room != Cookbook_P3 && !created)) {
-	if ((room != SCut && room != SPotSwipe) && room != SPotStir) {
+	if ((room != SCut && room != SSwipe) && room != SStir) {
 		if ((room != QCut && room != QSwipe) && room != QStir) {
 			// move with camera
 			x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110;
@@ -45,7 +45,7 @@ if ((room != Cookbook_P1 && room != Cookbook_P2) && (room != Cookbook_P3 && !cre
 
 // creating popup for non camera pages
 if ((room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3 ||
-    room == SCut || room == SPotSwipe || room == SPotStir || room == QCut ||
+    room == SCut || room == SSwipe || room == SStir || room == QCut ||
 	room == QSwipe || room == QStir) && !created) { 
 	_e = instance_create_layer(752,272,"Setting_Popup",o_sndEffects);
 	_m = instance_create_layer(752,360,"Setting_Popup",o_sndMusic);
@@ -69,10 +69,10 @@ if ((room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3 ||
 	if (room == SCut || room == QCut) {
 		o_cutManager.pause = 1;
 	}
-	if (room == SPotSwipe || room == QSwipe) {
+	if (room == SSwipe || room == QSwipe) {
 		o_swipeManager.pause = 1;
 	}
-	if (room == SPotStir || room == QStir) {
+	if (room == SStir || room == QStir) {
 		o_stirManager.pause = 1;
 	}
 } 

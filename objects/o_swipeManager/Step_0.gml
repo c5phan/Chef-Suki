@@ -15,7 +15,7 @@ if (current == "done" || timer <= 0) {
 
 if (a == 1) {
 	// calculate cut stars
-	if (room == SPotSwipe) {
+	if (room == SSwipe) {
 		if (current == "done") {
 			starCount.SSwipe_stars = 3;
 		} else if (current == "stock" || current == "chicken" || current == "potato") {
@@ -24,7 +24,7 @@ if (a == 1) {
 			starCount.SSwipe_stars = 1;
 		}
 		show_debug_message(starCount.SSwipe_stars);
-		room_goto(SPotStir);
+		room_goto(SStir);
 	}
 	if (room = QSwipe) {
 		if (current == "done") {

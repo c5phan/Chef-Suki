@@ -10,10 +10,10 @@ caller.created = 0;
 	if (room == SCut || room == QCut) {
 		o_cutManager.pause = 0;
 	}
-	if (room == SPotSwipe || room == QSwipe) {
+	if (room == SSwipe || room == QSwipe) {
 		o_swipeManager.pause = 0;
 	}
-	if (room == SPotStir || room == QStir) {
+	if (room == SStir || room == QStir) {
 		o_stirManager.pause = 0;
 	}
 

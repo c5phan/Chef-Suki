@@ -1,1 +1,3 @@
-pressed = 1;
+if (!o_cutManager.pause) {
+	pressed = 1;
+}

@@ -19,7 +19,7 @@ if (timer <= 0) {
 
 if (a == 1) {
 	// calculate level stars
-	if (room == SPotStir) {
+	if (room == SStir) {
 		if (current == maxStep) {
 			starCount.SStir_stars = 3;
 		} else if (current > floor(maxStep/2)) {
@@ -27,7 +27,10 @@ if (a == 1) {
 		} else {
 			starCount.SStir_stars = 1;
 		}
-		show_debug_message(starCount.SStir_stars);
 		room_goto(Cookbook_P1);
+	}
+	
+	if (room == QStir) {
+		room_goto(Cookbook_P2);
 	}
 }

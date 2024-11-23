@@ -16,5 +16,11 @@ caller.created = 0;
 	if (room == SStir || room == QStir) {
 		o_stirManager.pause = 0;
 	}
+	if (room == QPour) {
+		o_pourQuiche.pause = 0;
+	}
+	if (room == QOven) {
+		o_ovenManager.pause = 0;
+	}
 
 instance_destroy(); // destroys itself

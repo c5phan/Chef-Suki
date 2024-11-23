@@ -1,6 +1,6 @@
 if ((room != Cookbook_P1 && room != Cookbook_P2) && room != Cookbook_P3) {
 	if  ((room != SCut && room != SSwipe) && room != SStir) {
-		if ((room != QCut && room != QSwipe) && room != QStir) {
+		if  (((room != QCut && room != QSwipe) && (room != QStir && room != QPour)) && room != QOven) {
 			// move with camera
 			x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110;
 			y = camera_get_view_y(view_camera[0]) + 25;

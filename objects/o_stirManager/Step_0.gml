@@ -31,6 +31,13 @@ if (a == 1) {
 	}
 	
 	if (room == QStir) {
-		room_goto(Cookbook_P2);
+		if (current == maxStep) {
+			starCount.QStir_stars = 3;
+		} else if (current > floor(maxStep/2)) {
+			starCount.QStir_stars = 2;
+		} else {
+			starCount.QStir_stars = 1;
+		}
+		room_goto(QPour);
 	}
 }

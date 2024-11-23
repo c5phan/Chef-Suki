@@ -42,4 +42,30 @@ if (a == 1) {
 		}
 		room_goto(QPour);
 	}
+	
+	if (room == MStir1) {
+		if (current == maxStep) {
+			starCount.MStir1_stars = 3;
+		} else if (current > floor(maxStep/2)) {
+			starCount.MStir1_stars = 2;
+		} else if (current > 0) {
+			starCount.MStir1_stars = 1;
+		} else {
+			starCount.MStir1_stars = 0;
+		}
+		room_goto(MSwipe2);
+	}
+	
+	if (room == MStir2) {
+		if (current == maxStep) {
+			starCount.MStir2_stars = 3;
+		} else if (current > floor(maxStep/2)) {
+			starCount.MStir2_stars = 2;
+		} else if (current > 0) {
+			starCount.MStir2_stars = 1;
+		} else {
+			starCount.MStir2_stars = 0;
+		}
+		room_goto(Cookbook_P3);
+	}
 }

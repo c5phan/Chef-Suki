@@ -7,13 +7,13 @@ instance_destroy(pop);
 caller.created = 0;
 
 // need to turn pause off
-	if (room == SCut || room == QCut) {
+	if (room == SCut || room == QCut || room == MCut) {
 		o_cutManager.pause = 0;
 	}
-	if (room == SSwipe || room == QSwipe) {
+	if (room == SSwipe || room == QSwipe || room == MSwipe1 || room == MSwipe2) {
 		o_swipeManager.pause = 0;
 	}
-	if (room == SStir || room == QStir) {
+	if (room == SStir || room == QStir || room == MStir1 || room == MStir2) {
 		o_stirManager.pause = 0;
 	}
 	if (room == QPour) {

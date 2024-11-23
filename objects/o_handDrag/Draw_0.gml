@@ -1,5 +1,5 @@
 draw_sprite(SukiStir,0,x + sprite_width/2, y + sprite_height/2);
-if (room == SStir) {
+if (room == SStir || room == MStir1 || room == MStir2) {
 	draw_sprite(BasePotStir,0,0,0);
 }
 if (room == QStir) {

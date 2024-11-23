@@ -12,3 +12,11 @@ if (room == QSwipe) {
 	current = "bacon";
 	o_quicheManager.end_level = 1;
 }
+if (room == MSwipe1) {
+	current = "butter";
+	o_macManager.end_level = 1;
+}
+if (room == MSwipe2) {
+	current = "bacon";
+	o_macManager.end_level = 1;
+}

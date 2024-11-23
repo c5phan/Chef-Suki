@@ -86,7 +86,12 @@ if (o_swipeManager.current == "cheese") {
 	if (((done1 && done2) && (done3 && done4)) && ((done5 && done6) && done7)) {
 		timer--;
 		if (timer == 0) {
-			o_swipeManager.current = "egg";
+			if (room == QSwipe) {
+				o_swipeManager.current = "egg";
+			}
+			if (room == MSwipe1) {
+				o_swipeManager.current = "done";
+			}
 		}
 	}
 }

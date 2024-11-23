@@ -52,5 +52,5 @@ if (a == 1) {
 		
 	starCount.MF_stars = floor(point); // round down
 	
-	room_goto(Cookbook_P3);
+	room_goto(MCut);
 }

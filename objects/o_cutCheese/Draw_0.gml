@@ -108,7 +108,12 @@ if (o_cutManager.currentCut == "cheese") {
 		}
 		
 		if (timer == 0) {
-			o_cutManager.currentCut = "done";
+			if (room == QCut) {
+				o_cutManager.currentCut = "done";
+			}
+			if (room == MCut) {
+				o_cutManager.currentCut = "bacon";
+			}
 		}
 	}
 }

@@ -19,6 +19,14 @@ if (!variable_global_exists("initialized")) {
 	
 	// Mac Stars
 	MF_stars = 0;
+	MCut_stars = 0;
+	MSwipe1_stars = 0;
+	MStir1_stars = 0;
+	MSwipe2_stars = 0;
+	MStir2_stars = 0;
+	MPour_stars = 0;
+	MPlace_stars = 0;
+	MOven_stars = 0;
 	M_final = 0;
 	
 	initialized = true;

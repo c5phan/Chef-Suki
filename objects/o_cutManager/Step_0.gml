@@ -28,11 +28,26 @@ if (a == 1) {
 	if (room == QCut) {
 		if (currentCut == "done") {
 			starCount.QCut_stars = 3;
-		} else if (currentCut == "cheese") {
+		} else if (currentCut == "bpepper") {
 			starCount.QCut_stars = 2;
-		} else { // bacon
+		} else if (currentCut == "cheese") {
 			starCount.QCut_stars = 1;
-		}
+		} else { // bacon
+			starCount.QCut_stars = 0;
+		} 
 		room_goto(QSwipe);
+	}
+	
+	if (room == MCut) {
+		if (currentCut == "done") {
+			starCount.MCut_stars = 3;
+		} else if (currentCut == "broccoli") {
+			starCount.MCut_stars = 2;
+		} else if (currentCut == "bacon") {
+			starCount.MCut_stars = 1;
+		} else { // cheese
+			starCount.MCut_stars = 0;
+		} 
+		room_goto(MSwipe1);
 	}
 }

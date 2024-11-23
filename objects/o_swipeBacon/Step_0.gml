@@ -63,7 +63,12 @@ if (o_swipeManager.current == "bacon") {
 	if (((done1 && done2) && (done3 && done4)) && done5) {
 		timer--;
 		if (timer == 0) {
-			o_swipeManager.current = "cheese";
+			if (room == QSwipe) {
+				o_swipeManager.current = "cheese";
+			}
+			if (room == MSwipe2) {
+				o_swipeManager.current = "done";
+			}
 		}
 	}
 	

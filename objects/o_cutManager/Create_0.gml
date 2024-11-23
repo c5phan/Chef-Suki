@@ -14,3 +14,8 @@ if (room == QCut) {
 	level_timer = 900;
 	o_quicheManager.end_level = 1;
 }
+if (room == MCut) {
+	currentCut = "cheese";
+	level_timer = 900;
+	o_macManager.end_level = 1;
+}

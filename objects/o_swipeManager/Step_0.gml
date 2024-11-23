@@ -39,4 +39,29 @@ if (a == 1) {
 		}
 		room_goto(QStir);
 	}
+	
+	if (room == MSwipe1) {
+		if (current == "done") {
+			starCount.MSwipe1_stars = 3;
+		} else if (current == "milk") {
+			starCount.MSwipe1_stars = 2;
+		} else if (curent == "cheese") { 
+			starCount.MSwipe1_stars = 1;
+		} else { // butter
+			starCount.MSwipe1_stars = 0;
+		}
+		room_goto(MStir1);
+	}
+	if (room == MSwipe2) {
+		if (current == "done") {
+			starCount.MSwipe2_stars = 3;
+		} else if (current == "pasta") {
+			starCount.MSwipe2_stars = 2;
+		} else if (curent == "broccoli") { 
+			starCount.MSwipe2_stars = 1;
+		} else { // bacon
+			starCount.MSwipe2_stars = 0;
+		}
+		room_goto(MStir2);
+	}
 }

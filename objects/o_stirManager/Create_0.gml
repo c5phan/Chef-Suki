@@ -33,3 +33,14 @@ if (room == QStir) {
 	boundY2 = 380;
 	o_quicheManager.end_level = 1;
 }
+
+
+if (room == MStir1 || room == MStir2) { // this bound is same for all pot stir rooms
+	level_timer = 900;
+	maxStep = 20;
+	boundX1 = 340;
+	boundX2 = 1200;
+	boundY1 = 40;
+	boundY2 = 320;
+	o_macManager.end_level = 1;
+}

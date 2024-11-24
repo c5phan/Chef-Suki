@@ -12,6 +12,7 @@
     {"name":"inst_3DA33108","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
     {"name":"inst_7BC1C4AE","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
     {"name":"inst_3EFC6C0","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
+    {"name":"inst_1E45FED7","path":"rooms/Cookbook_P2/Cookbook_P2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +24,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6D0B1F5A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6D0B1F5A","path":"rooms/Cookbook_Base/Cookbook_Base.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6D0B1F5A","objectId":{"name":"oPlayer_TopDown","path":"objects/oPlayer_TopDown/oPlayer_TopDown.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":352.0,},
         {"$GMRInstance":"v1","%Name":"inst_7BC1C4AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_7BC1C4AE","path":"rooms/Cookbook_Base/Cookbook_Base.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_7BC1C4AE","objectId":{"name":"BacktoMenu","path":"objects/BacktoMenu/BacktoMenu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":64.0,"y":32.0,},
         {"$GMRInstance":"v1","%Name":"inst_3EFC6C0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EFC6C0","objectId":{"name":"o_settingPop_btn","path":"objects/o_settingPop_btn/o_settingPop_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6862745,"scaleY":0.6862745,"x":128.0,"y":32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1E45FED7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E45FED7","objectId":{"name":"recipeStars","path":"objects/recipeStars/recipeStars.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6D6140BB","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6D6140BB","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"ExitLevel","path":"sprites/ExitLevel/ExitLevel.yy",},"x":64.0,"y":32.0,},

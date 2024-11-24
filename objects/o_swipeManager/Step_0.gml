@@ -27,12 +27,12 @@ if (a == 1) {
 		}
 		room_goto(SStir);
 	}
-	if (room = QSwipe) {
+	if (room == QSwipe) {
 		if (current == "done") {
 			starCount.QSwipe_stars = 3;
 		} else if (current == "cream" || current == "egg") {
 			starCount.QSwipe_stars = 2;
-		} else if (curent == "cheese") { 
+		} else if (current == "cheese") { 
 			starCount.QSwipe_stars = 1;
 		} else { //bacon
 			starCount.QSwipe_stars = 0;
@@ -45,7 +45,7 @@ if (a == 1) {
 			starCount.MSwipe1_stars = 3;
 		} else if (current == "milk") {
 			starCount.MSwipe1_stars = 2;
-		} else if (curent == "cheese") { 
+		} else if (current == "cheese") { 
 			starCount.MSwipe1_stars = 1;
 		} else { // butter
 			starCount.MSwipe1_stars = 0;
@@ -57,7 +57,7 @@ if (a == 1) {
 			starCount.MSwipe2_stars = 3;
 		} else if (current == "pasta") {
 			starCount.MSwipe2_stars = 2;
-		} else if (curent == "broccoli") { 
+		} else if (current == "broccoli") { 
 			starCount.MSwipe2_stars = 1;
 		} else { // bacon
 			starCount.MSwipe2_stars = 0;

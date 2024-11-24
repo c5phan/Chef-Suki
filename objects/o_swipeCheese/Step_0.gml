@@ -90,7 +90,7 @@ if (o_swipeManager.current == "cheese") {
 				o_swipeManager.current = "egg";
 			}
 			if (room == MSwipe1) {
-				o_swipeManager.current = "done";
+				o_swipeManager.current = "milk";
 			}
 		}
 	}

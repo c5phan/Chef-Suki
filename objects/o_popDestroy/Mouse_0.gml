@@ -22,5 +22,8 @@ caller.created = 0;
 	if (room == QOven) {
 		o_ovenManager.pause = 0;
 	}
+	if (room == MPlace) {
+		o_cheeseBowl.pause = 0;
+	}
 
 instance_destroy(); // destroys itself

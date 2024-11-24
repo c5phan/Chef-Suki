@@ -7,3 +7,8 @@ if (room == QOven) {
 	current = "quiche";
 	o_quicheManager.end_level = 1;
 }
+
+if (room == MOven) {
+	current = "done";
+	o_macManager.end_level = 1;
+}

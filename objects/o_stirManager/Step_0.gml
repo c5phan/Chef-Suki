@@ -66,6 +66,6 @@ if (a == 1) {
 		} else {
 			starCount.MStir2_stars = 0;
 		}
-		room_goto(MPlace);
+		room_goto(MPour);
 	}
 }

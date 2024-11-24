@@ -33,7 +33,11 @@ if (a == 1) {
 		}
 	
 		// done
-		show_debug_message(starCount.QBake_stars);
 		room_goto(Cookbook_P2);
+	}
+	if (room == MOven) {
+		// calculate stars
+		
+		room_goto(Cookbook_P3);
 	}
 }

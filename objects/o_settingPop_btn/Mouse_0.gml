@@ -3,7 +3,7 @@ if ((room != Cookbook_P1 && room != Cookbook_P2) && (room != Cookbook_P3 && !cre
 	if ((room != SCut && room != SSwipe) && room != SStir) {
 		if (((room != QCut && room != QSwipe) && (room != QStir && room != QPour)) && room != QOven) {
 			if (((room != MCut && room != MPlace) && (room != MSwipe2 && room != MSwipe1)) && 
-				(room != MStir1 && room != MStir2)) {
+				((room != MStir1 && room != MStir2) && (room != MPour && room != MOven))) {
 				// move with camera
 				x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110;
 				y = camera_get_view_y(view_camera[0]) + 25;
@@ -51,7 +51,7 @@ if ((room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3 ||
     room == SCut || room == SSwipe || room == SStir || room == QCut ||
 	room == QSwipe || room == QStir || room == QPour || room == QOven ||
 	room == MCut || room == MSwipe1 || room == MSwipe2 || room == MStir1 || room == MStir2 ||
-	room == MPlace) && !created) { 
+	room == MPlace || room == MPour || room == MOven) && !created) { 
 	_e = instance_create_layer(752,272,"Setting_Popup",o_sndEffects);
 	_m = instance_create_layer(752,360,"Setting_Popup",o_sndMusic);
 	_q = instance_create_layer(656,448,"Setting_Popup",o_quit);
@@ -83,8 +83,11 @@ if ((room == Cookbook_P1 || room == Cookbook_P2 || room == Cookbook_P3 ||
 	if (room == QPour) {
 		o_pourQuiche.pause = 1;
 	}
-	if (room == QOven) {
+	if (room == QOven || room == MOven) {
 		o_ovenManager.pause = 1;
+	}
+	if (room == MPour) {
+		o_pourMac.pause = 1;
 	}
 	if (room == MPlace) {
 		o_cheeseBowl.pause = 1;

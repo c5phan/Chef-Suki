@@ -24,5 +24,5 @@ if (a == 1) {
 		starCount.MPlace_stars = 0;
 	}
 	
-	room_goto(Cookbook_P3);
+	room_goto(MOven);
 }

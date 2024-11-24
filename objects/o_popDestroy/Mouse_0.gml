@@ -19,8 +19,11 @@ caller.created = 0;
 	if (room == QPour) {
 		o_pourQuiche.pause = 0;
 	}
-	if (room == QOven) {
+	if (room == QOven || room == MOven) {
 		o_ovenManager.pause = 0;
+	}
+	if (room == MPour) {
+		o_pourMac.pause = 0;
 	}
 	if (room == MPlace) {
 		o_cheeseBowl.pause = 0;

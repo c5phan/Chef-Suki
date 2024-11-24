@@ -72,7 +72,7 @@ if (o_cutManager.currentCut == "bacon") {
 				o_cutManager.currentCut = "cheese";
 			}
 			if (room == MCut) {
-				o_cutManager.currentCut = "done";
+				o_cutManager.currentCut = "broccoli";
 			}
 		}
 	}

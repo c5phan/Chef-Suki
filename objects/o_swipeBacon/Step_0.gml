@@ -67,7 +67,7 @@ if (o_swipeManager.current == "bacon") {
 				o_swipeManager.current = "cheese";
 			}
 			if (room == MSwipe2) {
-				o_swipeManager.current = "done";
+				o_swipeManager.current = "broccoli";
 			}
 		}
 	}

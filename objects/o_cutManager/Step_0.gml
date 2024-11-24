@@ -16,9 +16,9 @@ if (a == 1) {
 	if (room == SCut) {
 		if (currentCut == "done") {
 			starCount.SCut_stars = 3;
-		} else if (currentCut == "ronion" || currentCut == "chicken") {
+		} else if (currentCut == "ronion" || currentCut == "celery") {
 			starCount.SCut_stars = 2;
-		} else if (currentCut == "potato") {
+		} else if (currentCut == "potato" || currentCut == "chicken") {
 			starCount.SCut_stars = 1;
 		} else { // carrot
 			starCount.SCut_stars = 0;

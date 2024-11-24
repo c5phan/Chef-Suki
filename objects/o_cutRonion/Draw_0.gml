@@ -22,7 +22,9 @@ if (o_cutManager.currentCut == "ronion") {
 			timer--;
 		}
 		if (timer == 0) {
-			o_cutManager.currentCut = "done";
+			if (room == SCut) {
+				o_cutManager.currentCut = "celery";
+			}
 		}
 	} 
 }

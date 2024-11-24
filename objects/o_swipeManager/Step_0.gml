@@ -18,7 +18,7 @@ if (a == 1) {
 	if (room == SSwipe) {
 		if (current == "done") {
 			starCount.SSwipe_stars = 3;
-		} else if (current == "stock" || current == "potato") {
+		} else if (current == "stock" || current == "celery" || current == "potato") {
 			starCount.SSwipe_stars = 2;
 		} else if (current == "ronion" || current == "chicken") { // carrot and ronion
 			starCount.SSwipe_stars = 1;

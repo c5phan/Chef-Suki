@@ -24,5 +24,6 @@ if (a == 1) {
 		starCount.MPlace_stars = 0;
 	}
 	
+	show_debug_message("place: " + string(starCount.MPlace_stars));
 	room_goto(MOven);
 }

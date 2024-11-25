@@ -33,11 +33,12 @@ if (a == 1) {
 		}
 	
 		// done
+		show_debug_message("oven: " + string(starCount.QBake_stars));
 		room_goto(Cookbook_P2);
 	}
 	if (room == MOven) {
 		// calculate stars
-		
+		show_debug_message("oven: " + string(starCount.MOven_stars));
 		room_goto(Cookbook_P3);
 	}
 }

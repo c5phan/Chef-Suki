@@ -3,7 +3,6 @@ if (level_timer > 0 && !pause) {
 }
 
 if (level_timer == 0){ 
-	currentCut = ""; // dummy value
 	timer--;
 }
 
@@ -23,6 +22,7 @@ if (a == 1) {
 		} else { // carrot
 			starCount.SCut_stars = 0;
 		}
+		show_debug_message("cut: " + string(starCount.SCut_stars));
 		room_goto(SSwipe);
 	}
 	if (room == QCut) {
@@ -35,6 +35,7 @@ if (a == 1) {
 		} else { // bacon
 			starCount.QCut_stars = 0;
 		} 
+		show_debug_message("cut: " + string(starCount.QCut_stars));
 		room_goto(QSwipe);
 	}
 	
@@ -48,6 +49,7 @@ if (a == 1) {
 		} else { // cheese
 			starCount.MCut_stars = 0;
 		} 
+		show_debug_message("cut: " + string(starCount.MCut_stars));
 		room_goto(MSwipe1);
 	}
 }

@@ -27,6 +27,7 @@ if (a == 1) {
 		} else {
 			starCount.SStir_stars = 1;
 		}
+		show_debug_message("stir: " + string(starCount.SStir_stars));
 		room_goto(Cookbook_P1);
 	}
 	
@@ -40,6 +41,7 @@ if (a == 1) {
 		} else {
 			starCount.QStir_stars = 0;
 		}
+		show_debug_message("stir: " + string(starCount.QStir_stars));
 		room_goto(QPour);
 	}
 	
@@ -53,6 +55,7 @@ if (a == 1) {
 		} else {
 			starCount.MStir1_stars = 0;
 		}
+		show_debug_message("stir: " + string(starCount.MStir1_stars));
 		room_goto(MSwipe2);
 	}
 	
@@ -66,6 +69,7 @@ if (a == 1) {
 		} else {
 			starCount.MStir2_stars = 0;
 		}
+		show_debug_message("stir: " + string(starCount.MStir2_stars));
 		room_goto(MPour);
 	}
 }

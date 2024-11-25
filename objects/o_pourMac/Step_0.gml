@@ -22,5 +22,6 @@ if (a == 1) {
 		starCount.MPour_stars = 1;
 	}
 	
+	show_debug_message("pour: " + string(starCount.MPour_stars));
 	room_goto(MPlace);
 }

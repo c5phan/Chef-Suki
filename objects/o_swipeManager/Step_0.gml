@@ -3,7 +3,6 @@ if (level_timer > 0 && !pause) {
 }
 
 if (level_timer == 0){ 
-	current = ""; // dummy value
 	if (timer > 0) {
 		timer--;
 	}
@@ -25,6 +24,7 @@ if (a == 1) {
 		} else { // carrot
 			starCount.SSwipe_stars = 0;
 		}
+		show_debug_message("swipe: " + string(starCount.SSwipe_stars));
 		room_goto(SStir);
 	}
 	if (room == QSwipe) {
@@ -37,6 +37,7 @@ if (a == 1) {
 		} else { //bacon
 			starCount.QSwipe_stars = 0;
 		}
+		show_debug_message("swipe: " + string(starCount.QSwipe_stars));
 		room_goto(QStir);
 	}
 	
@@ -50,6 +51,7 @@ if (a == 1) {
 		} else { // butter
 			starCount.MSwipe1_stars = 0;
 		}
+		show_debug_message("swipe: " + string(starCount.MSwipe1_stars));
 		room_goto(MStir1);
 	}
 	if (room == MSwipe2) {
@@ -62,6 +64,7 @@ if (a == 1) {
 		} else { // bacon
 			starCount.MSwipe2_stars = 0;
 		}
+		show_debug_message("swipe: " + string(starCount.MSwipe2_stars));
 		room_goto(MStir2);
 	}
 }

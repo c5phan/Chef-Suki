@@ -9,6 +9,7 @@ gameGravity = 0.25;
 
 yHeight = -sprite_height / 2;
 yFloor = y;
+tempFloor = y;
 
 // left
 look_left = false;

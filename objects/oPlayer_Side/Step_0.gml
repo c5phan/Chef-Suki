@@ -31,18 +31,6 @@ if (jump && ySpeed == 0) {
 	ySpeed = jumpSpeed;
 }
 
-// Gravity
-if (y != yFloor) {
-	ySpeed += gameGravity;
-}
-
-// Snap to ground
-if (y + ySpeed > yFloor) {
-	ySpeed = 0;
-	y = yFloor;
-}
-
-
 // move along axis using Speed
 if (x + xSpeed < 0) { // left of room
 	x = 0;
@@ -52,29 +40,51 @@ if (x + xSpeed < 0) { // left of room
 	x += xSpeed;
 }
 
-platformBelow = instance_place(x, y + ySpeed, o_platform);
-if (ySpeed > 0) { // falling 
-	if (platformBelow == noone) { 
-		while (!place_meeting(x, y + 1, o_platform)) {
-			y++;
-			if (y > room_height) { break; }
+// Gravity
+ySpeed += gameGravity; 
+
+// Vertical Movement and Platform/Ground Detection
+var platformBelow = instance_place(x, (y + sprite_height - 30) + ySpeed, o_platform); 
+if (platformBelow != noone) { // platform at x, y+ySpeed
+    var platformTop = y;
+	while (!place_meeting(x, platformTop + 1, platformBelow)) { // find top
+		platformTop++;
+		if (platformTop > yFloor) {
+			platformTop = yFloor;
 		}
-		ySpeed = 0;
 	}
-} 
-
-if (place_meeting(x, y + ySpeed, o_solid)) { // colliding with solid
-	y = y + ySpeed;
-	while (place_meeting(x, y, o_solid)) {
-	  y--;
+	if (y + ySpeed > platformTop) { // Landing on the platform
+	    y = platformTop; // Align with the top of the platform
+	    ySpeed = 0;      // Stop falling
+	} else {
+	   y += ySpeed; // Still falling toward the platform
 	}
-	ySpeed = 0;
-} 
-
-if (y + ySpeed < 0){ // top of room
-	y = 0;
-} else if (y + ySpeed > room_height - 60) { // bot of room
-	y = yFloor;
+} else if (y + ySpeed > yFloor) { // y is past yFloor
+    y = yFloor;
+    ySpeed = 0; // Stop falling
 } else {
-	y += ySpeed;
+    y += ySpeed; 
 }
+
+// Solid Object Collision
+if (place_meeting(x, y + ySpeed, o_solid)) {
+    while (place_meeting(x, y, o_solid)) {
+        y--; // Align above the solid
+    }
+    ySpeed = 0; // Stop vertical movement
+}
+
+// Room Bounds
+if (x + xSpeed < 0) {
+    x = 0;
+} else if (x + xSpeed > room_width - 60) {
+    x = room_width - 60;
+} else {
+    x += xSpeed; // Horizontal movement
+}
+
+if (y < 0) { // Prevent going above the room
+    y = 0;
+    ySpeed = 0;
+}
+

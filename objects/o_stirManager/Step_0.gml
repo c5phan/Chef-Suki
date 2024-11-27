@@ -28,7 +28,9 @@ if (a == 1) {
 			starCount.SStir_stars = 1;
 		}
 		show_debug_message("stir: " + string(starCount.SStir_stars));
-		room_goto(Cookbook_P1);
+		
+		// do end
+		startEnd = 1;
 	}
 	
 	if (room == QStir) {
@@ -73,3 +75,14 @@ if (a == 1) {
 		room_goto(MPour);
 	}
 }
+
+if (startEnd) {
+	endTimer--;
+	if (endTimer <= 0) {
+		b = min(b+0.015, 1) 
+	} 
+	if (b == 1) {
+		room_goto(Cookbook_P1);
+	}
+}
+	

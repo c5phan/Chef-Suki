@@ -1,10 +1,15 @@
 current = 0;
 a = 0; // transparency of black rectangle over screen (for fading)
 timer = 60; // buffer before fade
+b = 0; // fade out #2
 
 level_timer = -1; // 15 seconds
 destroyed = 0;
 pause = 0;
+
+startEnd = 0;
+endTimer = 300; // 5 secs
+
 
 // max hits depends on room
 // stirGoal will generate random maxStep goals within specified bound 

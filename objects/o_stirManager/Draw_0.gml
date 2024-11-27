@@ -1,4 +1,28 @@
-draw_set_font(Cutscene_txt);
-draw_set_color(c_black);
-draw_set_halign(fa_center);
-draw_text(640,10,("Time Remaining: " + string(ceil(level_timer/60)) + " Seconds"));
+if (!startEnd) {
+	draw_set_font(Cutscene_txt);
+	draw_set_color(c_black);
+	draw_set_halign(fa_center);
+	draw_text(640,10,("Time Remaining: " + string(ceil(level_timer/60)) + " Seconds"));
+	if (timer <= 0) {
+		draw_sprite_ext(sPixel,0, 0,0,1280,720,0,c_black,a);
+	}
+}
+if (startEnd) {
+	draw_sprite(Counter,0,0,0);
+	draw_sprite_ext(ChickenStew,0,352,256,0.5,0.5,0,-1,1);
+	var base = 400;
+	for (i = 0; i < 3; i++) {
+		draw_sprite_ext(emptyStar,0,base,75,0.2,0.2,0,-1,1);
+		base += 150;
+	}
+	
+	if (endTimer <= 240) {
+		draw_sprite_ext(star,0,400,75,0.2,0.2,0,-1,1);
+	}
+	if (endTimer <= 180) {
+		draw_sprite_ext(star,0,550,75,0.2,0.2,0,-1,1);
+	}
+	if (endTimer <= 120) {
+		draw_sprite_ext(star,0,700,75,0.2,0.2,0,-1,1);
+	}
+}

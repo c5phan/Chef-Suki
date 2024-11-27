@@ -9,6 +9,6 @@ if (room == QOven) {
 }
 
 if (room == MOven) {
-	current = "done";
+	current = "mac";
 	o_macManager.end_level = 1;
 }

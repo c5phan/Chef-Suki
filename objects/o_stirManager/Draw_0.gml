@@ -16,13 +16,13 @@ if (startEnd) {
 		base += 150;
 	}
 	
-	if (endTimer <= 240) {
+	if (endTimer <= 240 && starCount.S_final >= 1) {
 		draw_sprite_ext(star,0,400,75,0.2,0.2,0,-1,1);
 	}
-	if (endTimer <= 180) {
+	if (endTimer <= 180 && starCount.S_final >= 2) {
 		draw_sprite_ext(star,0,550,75,0.2,0.2,0,-1,1);
 	}
-	if (endTimer <= 120) {
+	if (endTimer <= 120 && starCount.S_final == 3) {
 		draw_sprite_ext(star,0,700,75,0.2,0.2,0,-1,1);
 	}
 }

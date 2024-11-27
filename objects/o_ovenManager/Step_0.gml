@@ -34,7 +34,7 @@ if (a == 1) {
 	
 		// done
 		show_debug_message("oven: " + string(starCount.QBake_stars));
-		room_goto(Cookbook_P2);
+		startEnd = 1;
 	}
 	if (room == MOven) {
 		// calculate stars
@@ -67,6 +67,21 @@ if (a == 1) {
 		}
 		
 		show_debug_message("oven: " + string(starCount.MOven_stars));
-		room_goto(Cookbook_P3);
+		startEnd = 1;
+	}
+}
+
+if (startEnd) {
+	endTimer--;
+	if (endTimer <= 0) {
+		b = min(b+0.015,1);
+	}
+	if (b == 1) {
+		if (room == QOven) {
+			room_goto(Cookbook_P2);
+		}
+		if (room == MOven) {
+			room_goto(Cookbook_P3);
+		}
 	}
 }

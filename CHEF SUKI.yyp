@@ -475,6 +475,7 @@
     {"id":{"name":"swipePotato_P2","path":"sprites/swipePotato_P2/swipePotato_P2.yy",},},
     {"id":{"name":"swipePotato_P3","path":"sprites/swipePotato_P3/swipePotato_P3.yy",},},
     {"id":{"name":"swipePotato_P4","path":"sprites/swipePotato_P4/swipePotato_P4.yy",},},
+    {"id":{"name":"TestSprite","path":"sprites/TestSprite/TestSprite.yy",},},
     {"id":{"name":"ToggleOff","path":"sprites/ToggleOff/ToggleOff.yy",},},
     {"id":{"name":"ToggleOn","path":"sprites/ToggleOn/ToggleOn.yy",},},
     {"id":{"name":"UncookedQuiche","path":"sprites/UncookedQuiche/UncookedQuiche.yy",},},

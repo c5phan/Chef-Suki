@@ -388,6 +388,7 @@
     {"name":"swipePotato_P2","order":1,"path":"sprites/swipePotato_P2/swipePotato_P2.yy",},
     {"name":"swipePotato_P3","order":2,"path":"sprites/swipePotato_P3/swipePotato_P3.yy",},
     {"name":"swipePotato_P4","order":3,"path":"sprites/swipePotato_P4/swipePotato_P4.yy",},
+    {"name":"TestSprite","order":33,"path":"sprites/TestSprite/TestSprite.yy",},
     {"name":"ToggleOff","order":1,"path":"sprites/ToggleOff/ToggleOff.yy",},
     {"name":"ToggleOn","order":2,"path":"sprites/ToggleOn/ToggleOn.yy",},
     {"name":"UncookedQuiche","order":3,"path":"sprites/UncookedQuiche/UncookedQuiche.yy",},

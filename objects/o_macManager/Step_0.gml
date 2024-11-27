@@ -15,17 +15,29 @@ if (!end_level) {
 		}
 	}
 
-	if (mouse_wheel_up()) {
-	    select++;
-		if (select > 4) {
-			select = 0;
+	if (mouse_wheel_up() || keyboard_check(vk_right))
+	{
+	    if (!buffer) {
+			select++;
+			if (select > 5) {
+				select = 0;
+			}
+			buffer = 5;
+		} else {
+			buffer--;
 		}
 	}
 
-	if (mouse_wheel_down()) {
-	    select--;
-		if (select < 0) {
-			select = 4;
+	if (mouse_wheel_down() || keyboard_check(vk_left))
+	{
+	    if (!buffer) {
+			select--;
+			if (select < 0) {
+				select = 5;
+			}
+			buffer = 5;
+		} else {
+			buffer--;
 		}
 	}
 } else { // end level so reset

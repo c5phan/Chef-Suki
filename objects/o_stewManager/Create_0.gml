@@ -16,6 +16,7 @@ if (!variable_global_exists("initialized")) {
 
     select = 0;
     end_level = 1;
+	buffer = 5;
 	
 	// recipe needs
     need_stock = 1;

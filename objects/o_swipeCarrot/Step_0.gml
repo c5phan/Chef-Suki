@@ -13,7 +13,7 @@ if (o_swipeManager.current == "carrot") {
 	
 	if (!done2) {
 		if (!created2) {
-			piece2 = instance_create_layer(672,130,"Setting_Popup",o_drag); // set at first cut spot
+			piece2 = instance_create_layer(650,150,"Setting_Popup",o_drag); // set at first cut spot
 			piece2.image_xscale = 2.25;
 			piece2.image_yscale = 1.25;
 			created2 = 1;
@@ -49,7 +49,7 @@ if (o_swipeManager.current == "carrot") {
 	
 	if (!done5) {
 		if (!created5) {
-			piece5 = instance_create_layer(704,32,"Setting_Popup",o_drag); // set at first cut spot
+			piece5 = instance_create_layer(704,15,"Setting_Popup",o_drag); // set at first cut spot
 			piece5.image_xscale = 2;
 			piece5.image_yscale = 0.5;
 			created5 = 1;

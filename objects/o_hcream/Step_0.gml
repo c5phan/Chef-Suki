@@ -18,6 +18,7 @@ if (room = MF_Shelf5) {
 if (collect && showConfirm) {
 	invenManage(o_hcream, manager, "hcream");
 	if (global.effects == 1) {
+		audio_sound_pitch(snd_pop,1);
 		audio_play_sound(snd_pop,0,0);
 	}
 }

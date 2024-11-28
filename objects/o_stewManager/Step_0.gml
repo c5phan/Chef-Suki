@@ -6,6 +6,10 @@ if (room == SF_Shelf1) {
 if (!end_level) {
 	drop = keyboard_check_pressed(ord("Q"));
 	if (drop) {
+		if (global.effects == 1) {
+			audio_sound_pitch(snd_pop,0.5);
+			audio_play_sound(snd_pop,0,0);
+		}
 		if (inven[select] > 0)
 		{
 			inven[select]--;

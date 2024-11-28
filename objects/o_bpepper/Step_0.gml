@@ -17,6 +17,7 @@ if (room = MF_Shelf4) {
 if (collect && showConfirm) {
 	invenManage(o_bpepper, manager, "bpepper");
 	if (global.effects == 1) {
+		audio_sound_pitch(snd_pop,1);
 		audio_play_sound(snd_pop,0,0);
 	}
 }

@@ -16,4 +16,7 @@ if (room = MF_Shelf4) {
 
 if (collect && showConfirm) {
 	invenManage(o_salsa, manager, "salsa");
+	if (global.effects == 1) {
+		audio_play_sound(snd_pop,0,0);
+	}
 }

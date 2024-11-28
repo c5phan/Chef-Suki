@@ -238,6 +238,7 @@
     {"name":"snd_meow2","order":3,"path":"sounds/snd_meow2/snd_meow2.yy",},
     {"name":"snd_meow3","order":2,"path":"sounds/snd_meow3/snd_meow3.yy",},
     {"name":"snd_music","order":1,"path":"sounds/snd_music/snd_music.yy",},
+    {"name":"snd_pop","order":5,"path":"sounds/snd_pop/snd_pop.yy",},
     {"name":"Arrow","order":13,"path":"sprites/Arrow/Arrow.yy",},
     {"name":"BaseBowl","order":12,"path":"sprites/BaseBowl/BaseBowl.yy",},
     {"name":"BaseBowlStir","order":16,"path":"sprites/BaseBowlStir/BaseBowlStir.yy",},

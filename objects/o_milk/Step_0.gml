@@ -17,4 +17,7 @@ if (room = MF_Shelf5) {
 
 if (collect && showConfirm) {
 	invenManage(o_milk, manager, "milk");
+	if (global.effects == 1) {
+		audio_play_sound(snd_pop,0,0);
+	}
 }

@@ -17,4 +17,7 @@ if (room = MF_Shelf1) {
 
 if (collect && showConfirm) {
 	invenManage(o_pasta, manager, "pasta");
+	if (global.effects == 1) {
+		audio_play_sound(snd_pop,0,0);
+	}
 }

@@ -17,4 +17,7 @@ if (room = MF_Shelf2) {
 
 if (collect && showConfirm) {
 	invenManage(o_pickle, manager, "pickle");
+	if (global.effects == 1) {
+		audio_play_sound(snd_pop,0,0);
+	}
 }

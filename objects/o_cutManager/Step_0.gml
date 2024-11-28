@@ -23,7 +23,7 @@ if (a == 1) {
 			starCount.SCut_stars = 0;
 		}
 		show_debug_message("cut: " + string(starCount.SCut_stars));
-		room_goto(SSwipe);
+		room_goto(SwipeInstruct);
 	}
 	if (room == QCut) {
 		if (currentCut == "done") {

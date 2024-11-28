@@ -25,7 +25,7 @@ if (a == 1) {
 			starCount.SSwipe_stars = 0;
 		}
 		show_debug_message("swipe: " + string(starCount.SSwipe_stars));
-		room_goto(SStir);
+		room_goto(StirInstruct);
 	}
 	if (room == QSwipe) {
 		if (current == "done") {

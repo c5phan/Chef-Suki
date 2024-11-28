@@ -53,5 +53,5 @@ if (a == 1) {
 	starCount.SF_stars = floor(point); // round down
 	show_debug_message(string(starCount.SF_stars));
 	
-	room_goto(SCut);
+	room_goto(CutInstruct);
 }

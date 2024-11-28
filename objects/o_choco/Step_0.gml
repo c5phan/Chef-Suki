@@ -21,6 +21,7 @@ if (timer <= 90) {  // check if in hit box during the 1.5 secs
 			manager.name[i] = "";
 		}
 		manager.unique = 0;
+		hit = 1;
 	}
 }
 

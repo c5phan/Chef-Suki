@@ -72,4 +72,14 @@ if (room == MF_Shelf4) { // egg
 		}
 	}
 }
+
+if (hit) {
+	displayTimer--;
+	if(displayTimer == 0) {
+		hit = 0;
+		displayTimer = 120;
+	} else { // show text display
+		draw_text_color(oPlayer_Side.x + 75,oPlayer_Side.y - 50,"I lost my items!",c_red,c_red,c_red,c_red,1);
+	}
+}
 	

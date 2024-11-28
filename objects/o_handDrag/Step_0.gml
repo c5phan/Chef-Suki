@@ -7,6 +7,13 @@ if (!o_stirManager.pause) {
 	  my = y - mouse_y;
 	 }
 	} else { // dragging
+		if (global.effects == 1 && sound == 90) { // stirring sound while dragging
+			audio_play_sound(snd_stir,0,0);
+		}
+		sound--;
+		if (sound == 0) {
+			sound = 90;
+		}
 		x = mouse_x + mx;
 		y = mouse_y + my;
 		o_handHitbox.x = x + 70;

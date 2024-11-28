@@ -20,6 +20,11 @@ if (step == 2) {
 }
 if (step == 3) {
 	draw_text(640,10,("Open and Cooldown"));
+	if (global.effects == 1 && !sound) {
+		audio_sound_set_track_position(snd_ding,6); // start at 6 sec
+		audio_play_sound(snd_ding,0,0);
+		sound = 1;
+	}
 	// Cooldown for 10 secs 
 	if (!o_OpenClose && stepTimer <= 480) { // if it's still in oven within 2 sec leanway 
 		toohigh++;
@@ -31,6 +36,7 @@ if (step == 3) {
 		
 }
 if (step == 4) {
+	sound = 0;
 	draw_text(640,10,("Put in at 425 degrees"));
 	stepTimer = 600; // wait till it's in the oven;
 	if (o_dragMac.in_oven && !o_OpenClose.open) {
@@ -49,6 +55,11 @@ if (step == 5) {
 }
 if (step == 6) {
 	draw_text(640,10,("Open and Cooldown"));
+	if (global.effects == 1 && !sound) {
+		audio_sound_set_track_position(snd_ding,6); // start at 6 sec
+		audio_play_sound(snd_ding,0,0);
+		sound = 1;
+	}
 	// Cooldown for 10 secs
 	if (!o_OpenClose && stepTimer <= 480) { // if it's still in oven within 2 sec leanway 
 		toohigh++;
@@ -64,6 +75,7 @@ if (step == 6) {
 	}
 }
 if (step == 7) {
+	sound = 0;
 	draw_text(640,10,("Put in at 350 degrees"));
 	stepTimer = 600; // wait till it's in the oven;
 	if (o_dragMac.in_oven && !o_OpenClose.open) {
@@ -83,6 +95,11 @@ if (step == 8) {
 }
 if (step == 9) {
 	draw_text(640,10,("Open and Cooldown"));
+	if (global.effects == 1 && !sound) {
+		audio_sound_set_track_position(snd_ding,6); // start at 6 sec
+		audio_play_sound(snd_ding,0,0);
+		sound = 1;
+	}
 	// Cooldown for 10 secs
 	if (!o_OpenClose && stepTimer <= 480) { // if it's still in oven within 2 sec leanway 
 		toohigh++;
@@ -103,6 +120,7 @@ if (step == 9) {
 	}
 }
 if (step == 10) {
+	sound = 0;
 	draw_text(640,10,("Put in at 375 degrees"));
 	stepTimer = 600; // wait till it's in the oven;
 	if (o_dragMac.in_oven && !o_OpenClose.open) {
@@ -122,6 +140,11 @@ if (step == 11) {
 }
 if (step == 12) {
 	draw_text(640,10,("Open and Cooldown"));
+	if (global.effects == 1 && !sound) {
+		audio_sound_set_track_position(snd_ding,6); // start at 6 sec
+		audio_play_sound(snd_ding,0,0);
+		sound = 1;
+	}
 	if (!o_OpenClose && stepTimer <= 480) { // if it's still in oven within 2 sec leanway 
 		toohigh++;
 	}
@@ -141,6 +164,7 @@ if (step == 12) {
 	}
 }
 if (step == 13) {
+	sound = 0;
 	draw_text(640,10,("Put in at 450 degrees"));
 	stepTimer = 600; // wait till it's in the oven;
 	if (o_dragMac.in_oven) {
@@ -160,6 +184,11 @@ if (step == 14) {
 }
 if (step == 15) {
 	draw_text(640,10,("Take Out"));
+	if (global.effects == 1 && !sound) {
+		audio_sound_set_track_position(snd_ding,6); // start at 6 sec
+		audio_play_sound(snd_ding,0,0);
+		sound = 1;
+	}
 	if (o_dragMac.in_oven) { // wait till its out then decrease cooldown
 		stepTimer = 600;
 	} else {

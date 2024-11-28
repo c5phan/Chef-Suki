@@ -3,8 +3,10 @@ if (!startEnd) {
 	draw_set_color(c_black);
 	draw_set_halign(fa_center);
 	draw_text(640,10,("Time Remaining: " + string(ceil(level_timer/60)) + " Seconds"));
-	if (timer <= 0) {
-		draw_sprite_ext(sPixel,0, 0,0,1280,720,0,c_black,a);
+	if (room == SStir) {
+		if (timer <= 0) {
+			draw_sprite_ext(sPixel,0, 0,0,1280,720,0,c_black,a);
+		}
 	}
 }
 if (startEnd) {

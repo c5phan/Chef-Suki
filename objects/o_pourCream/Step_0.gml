@@ -8,6 +8,9 @@ if (o_swipeManager.current == "cream") {
 		}
 		if (piece1.pressed == 1) {
 			done1 = 1;
+			if (global.effects == 1) {
+				audio_play_sound(snd_pour,0,0);
+			}
 			instance_destroy(piece1);
 		}
 	}

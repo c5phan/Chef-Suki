@@ -7,4 +7,5 @@ clickBuffer = 10;
 
 level_timer = 720; // 12 seconds
 pause = 0;
+sound = 150; // 2.5 sec
 o_quicheManager.end_level = 1;

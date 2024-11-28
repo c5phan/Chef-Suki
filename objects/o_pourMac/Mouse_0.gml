@@ -9,5 +9,12 @@ if (!pause) {
 			image_angle += 3.75;
 		}
 		clickBuffer = 10;
+		if (global.effects == 1 && sound == 150) { // stirring sound while dragging
+			audio_play_sound(snd_pour,0,0);
+		}
+		sound--;
+		if (sound == 0) {
+			sound = 150;
+		}
 	}
 }

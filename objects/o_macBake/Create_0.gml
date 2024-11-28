@@ -17,3 +17,4 @@ toolow = 0;
 step = 1;
 lastStep = 15;
 stepTimer = 600; // 10 secs
+sound = 0;

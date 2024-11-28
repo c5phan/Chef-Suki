@@ -4,24 +4,28 @@ var up = keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
 var jump = keyboard_check_pressed(vk_space);
 var dash = keyboard_check(vk_shift);
-
+walking = 0;
 // left, right, up, down movement
 if (left) {
 	look_left = true;
 	xSpeed = -moveSpeed;
+	walking = 1;
 } 
 
 if (right) {
 	look_left = false;
 	xSpeed = moveSpeed;
+	walking = 1;
 }
 
 if (up) {
 	ySpeed = -moveSpeed;
+	walking = 1;
 } 
 
 if (down) {
 	ySpeed = moveSpeed;
+	walking = 1;
 }
 
 // stop moving when keys no longer pressed

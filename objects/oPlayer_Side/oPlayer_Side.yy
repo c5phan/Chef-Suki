@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SukiL",
-    "path":"sprites/SukiL/SukiL.yy",
+    "name":"SukiLStand",
+    "path":"sprites/SukiLStand/SukiLStand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -14,3 +14,7 @@ zFloor = 0;
 
 // left
 look_left = false;
+
+// walk
+walkTimer = 30;
+walking = 0;

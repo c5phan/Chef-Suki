@@ -14,6 +14,10 @@ tempFloor = y;
 // left
 look_left = false;
 
+// walk
+walkTimer = 30;
+walking = 0;
+
 #region CLAMPED CAMERA VARIABLES
 
 min_view_x = 0;

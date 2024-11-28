@@ -5,15 +5,19 @@ var down = keyboard_check(ord("S"));
 var jump = keyboard_check_pressed(vk_space);
 var dash = keyboard_check(vk_shift);
 
+walking = 0;
+
 // left, right, movement
 if (left) {
 	look_left = true;
 	xSpeed = -moveSpeed;
+	walking = 1;
 } 
 
 if (right) {
 	look_left = false;
 	xSpeed = moveSpeed;
+	walking = 1;
 }
 
 

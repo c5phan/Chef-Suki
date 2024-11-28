@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"swipeCelery_P7",
   "bboxMode":0,
-  "bbox_bottom":228,
-  "bbox_left":0,
-  "bbox_right":186,
+  "bbox_bottom":204,
+  "bbox_left":18,
+  "bbox_right":184,
   "bbox_top":5,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7f33bcce-787c-4d0c-a238-55270c520f19","name":"7f33bcce-787c-4d0c-a238-55270c520f19","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e3cb7f3f-a536-4054-909e-714e9f5311f3","name":"e3cb7f3f-a536-4054-909e-714e9f5311f3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":235,
+  "height":216,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1120af5e-3b89-463e-a34c-9a0c76b45ebd","blendMode":0,"displayName":"default","isLocked":false,"name":"1120af5e-3b89-463e-a34c-9a0c76b45ebd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bc717362-262d-4467-877f-9d411f21dfbb","blendMode":0,"displayName":"default","isLocked":false,"name":"bc717362-262d-4467-877f-9d411f21dfbb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"swipeCelery_P7",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f33bcce-787c-4d0c-a238-55270c520f19","path":"sprites/swipeCelery_P7/swipeCelery_P7.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"73f829d7-4daf-447d-a847-0b3fc63ed7e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3cb7f3f-a536-4054-909e-714e9f5311f3","path":"sprites/swipeCelery_P7/swipeCelery_P7.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3c4b402c-30c5-4abf-8b68-6834ecac8658","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

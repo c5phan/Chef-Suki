@@ -49,7 +49,7 @@
           -21,5,2,9,11,-4,0,-3,-2147483648,2,0,8,-19,10,-2,5,-14,9,2,7,8,-11,9,-20,5,-2,9,1,11,-4,0,-3,-2147483648,
           2,0,8,-4,10,-31,9,2,7,8,-33,9,1,11,-4,0,-3,-2147483648,2,0,8,-35,9,2,7,8,-28,9,1,10,-4,9,1,11,-4,0,-3,
           -2147483648,2,0,12,-35,14,2,15,12,-33,14,1,15,-4,0,-3,-2147483648,-77,0,-3,-2147483648,-77,0,-80,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"page_tl","path":"tilesets/page_tl/page_tl.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":23,"SerialiseWidth":40,"TileCompressedData":[
           -82,1,-36,-2147483648,-2,2,-2,1,1,2,-35,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,
           -2,2,-2,1,-7,-2147483648,1,3,-28,-2147483648,-2,2,-2,1,-8,-2147483648,1,3,-27,-2147483648,-2,2,-2,1,
@@ -57,7 +57,7 @@
           -2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,
           -36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-2,2,-2,
           1,-36,-2147483648,-2,2,-2,1,-36,-2147483648,-42,2,-40,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"start_wood","path":"tilesets/start_wood/start_wood.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Cookbook_Base",

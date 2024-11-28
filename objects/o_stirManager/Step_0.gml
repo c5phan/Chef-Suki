@@ -44,7 +44,7 @@ if (a == 1) {
 			starCount.QStir_stars = 0;
 		}
 		show_debug_message("stir: " + string(starCount.QStir_stars));
-		room_goto(QPour);
+		room_goto(PourInstruct);
 	}
 	
 	if (room == MStir1) {

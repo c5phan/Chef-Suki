@@ -23,5 +23,5 @@ if (a == 1) {
 	}
 	
 	show_debug_message("pour: " + string(starCount.MPour_stars));
-	room_goto(MPlace);
+	room_goto(PlaceInstruct);
 }

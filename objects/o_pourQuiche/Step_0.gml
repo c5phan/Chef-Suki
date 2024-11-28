@@ -23,5 +23,5 @@ if (a == 1) {
 	}
 	
 	show_debug_message("pour: " + string(starCount.QPour_stars));
-	room_goto(QOven);
+	room_goto(OvenInstruct);
 }

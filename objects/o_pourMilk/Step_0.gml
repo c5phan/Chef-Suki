@@ -1,9 +1,9 @@
 if (o_swipeManager.current == "milk") {
 	if (!done1) {
 		if (!created1) {
-			piece1 = instance_create_layer(960,160,"Setting_Popup",o_checkClick); // set at first cut spot
-			piece1.image_xscale = 1.25;
-			piece1.image_yscale = 1.5;
+			piece1 = instance_create_layer(864,0,"Setting_Popup",o_checkClick); // set at first cut spot
+			piece1.image_xscale = 6.5;
+			piece1.image_yscale = 4.5;
 			created1 = 1;
 		}
 		if (piece1.pressed == 1) {

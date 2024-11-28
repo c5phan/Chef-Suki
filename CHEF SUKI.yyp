@@ -403,6 +403,7 @@
     {"id":{"name":"MacnCheese","path":"sprites/MacnCheese/MacnCheese.yy",},},
     {"id":{"name":"Menu","path":"sprites/Menu/Menu.yy",},},
     {"id":{"name":"MFTask","path":"sprites/MFTask/MFTask.yy",},},
+    {"id":{"name":"milkClosed","path":"sprites/milkClosed/milkClosed.yy",},},
     {"id":{"name":"milkOpen","path":"sprites/milkOpen/milkOpen.yy",},},
     {"id":{"name":"milkPot","path":"sprites/milkPot/milkPot.yy",},},
     {"id":{"name":"NextShelf","path":"sprites/NextShelf/NextShelf.yy",},},

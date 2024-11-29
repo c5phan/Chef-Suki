@@ -9,4 +9,5 @@ if (!pause) {
 			image_angle += 3.75;
 		}
 		clickBuffer = 10;
+	}
 }

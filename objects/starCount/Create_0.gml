@@ -27,6 +27,7 @@ if (!variable_global_exists("initialized")) {
 	MPour_stars = 0;
 	MPlace_stars = 0;
 	MOven_stars = 0;
+	MOven1_stars = 0;
 	M_final = 0;
 	
 	initialized = true;

@@ -12,7 +12,7 @@ if (room == QOven) {
 	o_quicheManager.end_level = 1;
 }
 
-if (room == MOven) {
+if (room == MOven2 || room == MOven1) {
 	current = "mac";
 	o_macManager.end_level = 1;
 }

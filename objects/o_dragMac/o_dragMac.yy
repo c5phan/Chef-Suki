@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"UncookedQuiche",
-    "path":"sprites/UncookedQuiche/UncookedQuiche.yy",
+    "name":"UncookedMac",
+    "path":"sprites/UncookedMac/UncookedMac.yy",
   },
   "spriteMaskId":null,
   "visible":true,

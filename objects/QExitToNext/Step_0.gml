@@ -50,5 +50,6 @@ if (a == 1) {
 	}
 		
 	starCount.QF_stars = floor(point); // round down
+	show_debug_message("fridge: " + string(starCount.QF_stars));
 	room_goto(QCut);
 }

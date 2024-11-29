@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"MacnCheese",
-    "path":"sprites/MacnCheese/MacnCheese.yy",
+    "name":"CookedCheeseMac",
+    "path":"sprites/CookedCheeseMac/CookedCheeseMac.yy",
   },
   "spriteMaskId":null,
   "visible":true,

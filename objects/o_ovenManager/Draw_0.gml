@@ -14,13 +14,13 @@ if (startEnd) {
 			draw_sprite(BurntQuiche,0,360,256);
 		}
 	}
-	if (room == MOven) {
-		if (o_dragMac.uncooked) {
-			draw_sprite(UncookedQuiche,0,360,256);
-		} else if (o_dragMac.cooked) {
-			draw_sprite(CookedQuiche,0,360,256);
+	if (room == MOven2) {
+		if (o_dragMacCheese.uncooked) {
+			draw_sprite(UncookedCheeseMac,0,360,256);
+		} else if (o_dragMacCheese.cooked) {
+			draw_sprite(CookedCheeseMac,0,360,256);
 		} else {
-			draw_sprite(BurntQuiche,0,360,256);
+			draw_sprite(BurntCheeseMac,0,360,256);
 		}
 	}
 	
@@ -41,7 +41,7 @@ if (startEnd) {
 			draw_sprite_ext(star,0,700,75,0.2,0.2,0,-1,1);
 		}
 	}
-	if (room == MOven) {
+	if (room == MOven2) {
 		if (endTimer <= 240 && starCount.M_final >= 1) {
 			draw_sprite_ext(star,0,400,75,0.2,0.2,0,-1,1);
 		}

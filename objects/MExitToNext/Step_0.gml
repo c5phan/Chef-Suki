@@ -52,5 +52,6 @@ if (a == 1) {
 		
 	starCount.MF_stars = floor(point); // round down
 	
+	show_debug_message("fridge: " + string(starCount.MF_stars));
 	room_goto(MCut);
 }

@@ -26,7 +26,7 @@ if (place_meeting(x,y,oPlayer_Side) && !entered) {
 } 
 
 if (entered) {
-	a = min(a+0.015, 1)
+	a = min(a+0.015, 1);
 }
 
 if (a == 1) {

@@ -2,7 +2,7 @@ if (!startEnd) {
 	draw_set_font(Cutscene_txt);
 	draw_set_color(c_black);
 	draw_set_halign(fa_center);
-	draw_text(640,10,("Time Remaining: " + string(ceil(level_timer/60)) + " Seconds"));
+	draw_text(80,79,("Time Left: " + string(ceil(level_timer/60))));
 	if (room == SStir) {
 		if (timer <= 0) {
 			draw_sprite_ext(sPixel,0, 0,0,1280,720,0,c_black,a);

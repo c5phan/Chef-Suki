@@ -37,5 +37,5 @@
     "path":"sprites/sNext/sNext.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

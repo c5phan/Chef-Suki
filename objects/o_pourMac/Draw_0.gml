@@ -1,4 +1,4 @@
-draw_sprite_ext(FilledPastry,0,0,0,1,1,0,-1,pourOpacity);
+draw_sprite_ext(macFilled,0,112,96,0.7,0.8,0,-1,pourOpacity);
 draw_self();
 
 draw_set_font(Cutscene_txt);

@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"o_pourMac",
+  "%Name":"o_pourPasta",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_pourMac",
+  "name":"o_pourPasta",
   "overriddenProperties":[],
   "parent":{
-    "name":"PourObjs",
-    "path":"folders/Objects/PourObjs.yy",
+    "name":"SwipeObjs",
+    "path":"folders/Objects/SwipeObjs.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"macPot",
-    "path":"sprites/macPot/macPot.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

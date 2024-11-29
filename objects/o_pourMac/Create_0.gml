@@ -8,4 +8,3 @@ clickBuffer = 10;
 level_timer = 720; // 12 seconds
 pause = 0;
 o_macManager.end_level = 1;
-sound = 150;

@@ -51,7 +51,7 @@ if (o_swipeManager.current == "broccoli") {
 	if ((done1 && done2) && (done3 && done4)) {
 		timer--;
 		if (timer == 0) {
-			o_swipeManager.current = "done";
+			o_swipeManager.current = "pasta";
 		}
 	}
 	

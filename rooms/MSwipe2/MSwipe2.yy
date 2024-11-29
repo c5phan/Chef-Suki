@@ -15,6 +15,7 @@
     {"name":"inst_6B089F09_1","path":"rooms/MSwipe2/MSwipe2.yy",},
     {"name":"inst_58E79088","path":"rooms/MSwipe2/MSwipe2.yy",},
     {"name":"inst_4AC15818","path":"rooms/MSwipe2/MSwipe2.yy",},
+    {"name":"inst_59E19A19","path":"rooms/MSwipe2/MSwipe2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,6 +29,7 @@
         {"$GMRInstance":"v1","%Name":"inst_6B089F09_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B089F09_1","objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-7.480589,"scaleX":24.000002,"scaleY":8.0,"x":144.0,"y":256.0,},
         {"$GMRInstance":"v1","%Name":"inst_58E79088","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58E79088","objectId":{"name":"o_swipeBacon","path":"objects/o_swipeBacon/o_swipeBacon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_4AC15818","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AC15818","objectId":{"name":"o_swipeBroccoli","path":"objects/o_swipeBroccoli/o_swipeBroccoli.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_59E19A19","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59E19A19","objectId":{"name":"o_pourPasta","path":"objects/o_pourPasta/o_pourPasta.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v1","%Name":"inst_4C2D24A9_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C2D24A9_1","objectId":{"name":"o_swipeManager","path":"objects/o_swipeManager/o_swipeManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[

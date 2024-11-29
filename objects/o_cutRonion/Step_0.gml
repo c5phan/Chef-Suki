@@ -13,7 +13,7 @@ if (o_cutManager.currentCut == "ronion") {
 		if (o_settingPop_btn.created == 1) { // hide circle during popup
 			inst.depth = 1;
 		} else {
-			inst.depth = 0;
+			inst.depth = -1;
 		}
 	}
 }

@@ -1,4 +1,5 @@
-if (!end_level) { // Fridge level
+if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Shelf4 ||
+	room == SF_Shelf5) { // Fridge level
 	// ExitFridge
 	draw_sprite_ext(ExitLevel, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110,
 					camera_get_view_y(view_camera[0]) + 10,0.5,0.5,0,-1,1);

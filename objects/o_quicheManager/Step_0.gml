@@ -1,9 +1,6 @@
-if (room == QF_Shelf1) {
-	end_level = 0;
-}
-
 // dropping function
-if (!end_level) {
+if (room == QF_Shelf1 || room == QF_Shelf2 || room == QF_Shelf3 || room == QF_Shelf4 
+	|| room == QF_Shelf5) {
 	drop = keyboard_check_pressed(ord("Q"));
 	if (drop) {
 		if (global.effects == 1) {

@@ -1,9 +1,6 @@
-if (room == SF_Shelf1) {
-	end_level = 0;
-}
-
 // dropping function
-if (!end_level) {
+if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Shelf4 ||
+	room == SF_Shelf5) { // only for fridge levels
 	drop = keyboard_check_pressed(ord("Q"));
 	if (drop) {
 		if (global.effects == 1) {

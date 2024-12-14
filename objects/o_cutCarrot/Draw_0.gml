@@ -68,6 +68,9 @@ if (o_cutManager.currentCut == "carrot") {
 		}
 		
 		if (timer == 0) {
+			if (room == SCut) {
+				o_cutManager.val = 1/5;
+			}
 			o_cutManager.currentCut = "potato";
 		}
 	}

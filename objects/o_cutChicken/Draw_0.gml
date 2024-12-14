@@ -52,6 +52,9 @@ if (o_cutManager.currentCut == "chicken") {
 		}
 		
 		if (timer == 0) {
+			if (room == SCut) {
+				o_cutManager.val = 3/5;
+			}
 			o_cutManager.currentCut = "ronion";
 		}
 	}

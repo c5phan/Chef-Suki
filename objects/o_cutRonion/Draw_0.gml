@@ -23,6 +23,7 @@ if (o_cutManager.currentCut == "ronion") {
 		}
 		if (timer == 0) {
 			if (room == SCut) {
+				o_cutManager.val = 4/5;
 				o_cutManager.currentCut = "celery";
 			}
 		}

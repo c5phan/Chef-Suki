@@ -109,6 +109,7 @@ if (o_cutManager.currentCut == "celery") {
 		
 		if (timer == 0) {
 			if (room == SCut) {
+				o_cutManager.val = 1;
 				o_cutManager.currentCut = "done";
 			}
 		}

@@ -52,6 +52,7 @@ if (o_cutManager.currentCut == "broccoli") {
 		}
 		
 		if (timer == 0) {
+			o_cutManager.val = 1;
 			o_cutManager.currentCut = "done";
 		}
 	}

@@ -6,12 +6,12 @@ pause = 0;
 
 if (room == SSwipe) {
 	current = "carrot";
-	level_timer = 1200; // 20 secs
+	level_timer = 1500; // 25 secs
 	o_stewManager.end_level = 1;
 }
 if (room == QSwipe) {
 	current = "bacon";
-	level_timer = 1200;
+	level_timer = 1500;
 	o_quicheManager.end_level = 1;
 }
 if (room == MSwipe1) {

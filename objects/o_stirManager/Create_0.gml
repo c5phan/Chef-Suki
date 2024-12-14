@@ -20,7 +20,7 @@ boundY1 = 0;
 boundY2 = 0;
 
 if (room == SStir) { // this bound is same for all pot stir rooms
-	level_timer = 900;
+	level_timer = 1200; // 20 seconds
 	maxStep = 20;
 	boundX1 = 340;
 	boundX2 = 1200;
@@ -41,8 +41,8 @@ if (room == QStir) {
 
 
 if (room == MStir1 || room == MStir2) { // this bound is same for all pot stir rooms
-	level_timer = 900;
-	maxStep = 20;
+	level_timer = 1200; // 20 seconds
+	maxStep = 30;
 	boundX1 = 340;
 	boundX2 = 1200;
 	boundY1 = 40;

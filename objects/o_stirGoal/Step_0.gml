@@ -1,5 +1,6 @@
 if (place_meeting(x,y,o_handHitbox)) {
 	o_stirManager.current++;
+	o_stirManager.val = o_stirManager.current/o_stirManager.maxStep;
 	if (o_stirManager.current == o_stirManager.maxStep) {
 		instance_destroy();
 	}

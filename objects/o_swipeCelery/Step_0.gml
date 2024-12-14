@@ -87,6 +87,7 @@ if (o_swipeManager.current == "celery") {
 		timer--;
 		if (timer == 0) {
 			if (room == SSwipe) {
+				o_swipeManager.val = 5/6;
 				o_swipeManager.current = "stock";
 			}
 		}

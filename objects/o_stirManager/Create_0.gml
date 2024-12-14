@@ -18,6 +18,7 @@ boundX1 = 0;
 boundX2 = 0;
 boundY1 = 0;
 boundY2 = 0;
+val = 0;
 
 if (room == SStir) { // this bound is same for all pot stir rooms
 	level_timer = 1200; // 20 seconds

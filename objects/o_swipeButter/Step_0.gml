@@ -14,6 +14,7 @@ if (o_swipeManager.current == "butter") {
 	if (done1) {
 		timer--;
 		if (timer == 0) {
+			o_swipeManager.val = 1/3;
 			o_swipeManager.current = "cheese";
 		}
 	}

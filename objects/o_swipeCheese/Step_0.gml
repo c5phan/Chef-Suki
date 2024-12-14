@@ -87,9 +87,11 @@ if (o_swipeManager.current == "cheese") {
 		timer--;
 		if (timer == 0) {
 			if (room == QSwipe) {
+				o_swipeManager.val = 2/5;
 				o_swipeManager.current = "bpepper";
 			}
 			if (room == MSwipe1) {
+				o_swipeManager.val = 2/3;
 				o_swipeManager.current = "milk";
 			}
 		}

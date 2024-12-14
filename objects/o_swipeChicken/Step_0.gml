@@ -51,6 +51,7 @@ if (o_swipeManager.current == "chicken") {
 	if ((done1 && done2) && (done3 && done4)) {
 		timer--;
 		if (timer == 0) {
+			o_swipeManager.val = 3/6;
 			o_swipeManager.current = "potato";
 		}
 	}

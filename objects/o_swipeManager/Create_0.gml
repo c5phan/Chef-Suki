@@ -3,10 +3,11 @@ a = 0; // transparency of black rectangle over screen (for fading)
 level_timer = -1; 
 timer = 60; // buffer before fade
 pause = 0;
+val = 0;
 
 if (room == SSwipe) {
 	current = "carrot";
-	level_timer = 1500; // 25 secs
+	level_timer = 1800; // 30 secs
 	o_stewManager.end_level = 1;
 }
 if (room == QSwipe) {

@@ -26,6 +26,7 @@ if (o_swipeManager.current == "ronion") {
 	if (done1 && done2) {
 		timer--;
 		if (timer == 0) {
+			o_swipeManager.val = 2/6;
 			o_swipeManager.current = "chicken";
 		}
 	}

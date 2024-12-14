@@ -63,6 +63,7 @@ if (o_swipeManager.current == "carrot") {
 	if (((done1 && done2) && (done3 && done4)) && done5) {
 		timer--;
 		if (timer == 0) {
+			o_swipeManager.val = 1/6;
 			o_swipeManager.current = "ronion";
 		}
 	}

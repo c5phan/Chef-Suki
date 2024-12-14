@@ -18,6 +18,7 @@ if (o_swipeManager.current == "milk") {
 	if (done1) {
 		timer--;
 		if (timer == 0) {
+			o_swipeManager.val = 1;
 			o_swipeManager.current = "done";
 		}
 	}

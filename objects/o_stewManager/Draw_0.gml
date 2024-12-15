@@ -25,6 +25,9 @@ if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Sh
 		} else {
 			if (name[i] == "carrot") {
 				drawInvenSlot(inven_carrot, i, select, string(inven[i]));
+				draw_rectangle_color(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 75,
+					camera_get_view_y(view_camera[0]) + 47, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 15,
+					camera_get_view_y(view_camera[0]) + 48, c_white, c_white, c_white, c_white, 0);
 			} else if (name[i] == "broccoli") {
 				drawInvenSlot(inven_broccoli,i,select,string(inven[i]));
 			} else if (name[i] == "apple") {
@@ -45,18 +48,30 @@ if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Sh
 				drawInvenSlot(inven_sourcream,i,select,string(inven[i]));
 			} else if (name[i] == "stock") {
 				drawInvenSlot(inven_stock,i,select,string(inven[i]));
+				draw_rectangle_color(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 75,
+					camera_get_view_y(view_camera[0]) + 25, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 15,
+					camera_get_view_y(view_camera[0]) + 26, c_white, c_white, c_white, c_white, 0);
 			} else if (name[i] == "celery") {
 				drawInvenSlot(inven_celery,i,select,string(inven[i]));
+				draw_rectangle_color(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 75,
+					camera_get_view_y(view_camera[0]) + 58, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 15,
+					camera_get_view_y(view_camera[0]) + 59, c_white, c_white, c_white, c_white, 0);
 			} else if (name[i] == "hcream") {
 				drawInvenSlot(inven_hcream,i,select,string(inven[i]));
 			} else if (name[i] == "chicken") {
 				drawInvenSlot(inven_chicken,i,select,string(inven[i]));
+				draw_rectangle_color(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 75,
+					camera_get_view_y(view_camera[0]) + 36, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 15,
+					camera_get_view_y(view_camera[0]) + 37, c_white, c_white, c_white, c_white, 0);
 			} else if (name[i] == "milk") {
 				drawInvenSlot(inven_milk,i,select,string(inven[i]));
 			} else if (name[i] == "cheese") {
 				drawInvenSlot(inven_cheese,i,select,string(inven[i]));
 			} else if (name[i] == "ronion") {
 				drawInvenSlot(inven_ronion,i,select,string(inven[i]));
+				draw_rectangle_color(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 75,
+					camera_get_view_y(view_camera[0]) + 81, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 15,
+					camera_get_view_y(view_camera[0]) + 82, c_white, c_white, c_white, c_white, 0);
 			} else if (name[i] == "mayo") {
 				drawInvenSlot(inven_mayo,i,select,string(inven[i]));
 			} else if (name[i] == "yogurt") {
@@ -71,6 +86,9 @@ if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Sh
 				drawInvenSlot(inven_bacon,i,select,string(inven[i]));
 			} else if (name[i] == "potato") {
 				drawInvenSlot(inven_potato,i,select,string(inven[i]));
+				draw_rectangle_color(camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 75,
+					camera_get_view_y(view_camera[0]) + 69, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 15,
+					camera_get_view_y(view_camera[0]) + 70, c_white, c_white, c_white, c_white, 0);
 			} else if (name[i] == "pasta") {
 				drawInvenSlot(inven_pasta,i,select,string(inven[i]));
 			} else if (name[i] == "butter") {

@@ -1,5 +1,9 @@
 if (room == QF_Shelf1 || room == QF_Shelf2 || room == QF_Shelf3 || room == QF_Shelf4 
 	|| room == QF_Shelf5) { // Fridge level
+	// Help
+	draw_sprite_ext(ControlBtn, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 112,
+					camera_get_view_y(view_camera[0]) + 70,0.3,0.3,0,-1,1);
+					
 	// ExitFridge
 	draw_sprite_ext(ExitLevel, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110,
 					camera_get_view_y(view_camera[0]) + 10,0.5,0.5,0,-1,1);

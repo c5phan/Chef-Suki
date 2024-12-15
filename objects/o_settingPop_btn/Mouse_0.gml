@@ -1,6 +1,6 @@
 // creating popups for the fridge levels
 if ((room != Cookbook_P1 && room != Cookbook_P2) && (room != Cookbook_P3 && !created)) {
-	if ((room != SCut && room != SSwipe) && room != SStir) {
+	if ((room != SCut && room != SSwipe) && (room != SStir && !o_controlPop_btn.created)) {
 		if (((room != QCut && room != QSwipe) && (room != QStir && room != QPour)) && room != QOven) {
 			if  (((room != MCut && room != MPlace) && (room != MSwipe2 && room != MSwipe1)) && 
 				(((room != MStir1 && room != MStir2) && (room != MPour && room != MOven2)) 

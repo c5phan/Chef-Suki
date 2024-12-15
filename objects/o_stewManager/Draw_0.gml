@@ -1,5 +1,9 @@
 if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Shelf4 ||
 	room == SF_Shelf5) { // Fridge level
+	// Help
+	draw_sprite_ext(ControlBtn, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 112,
+					camera_get_view_y(view_camera[0]) + 70,0.3,0.3,0,-1,1);
+	
 	// ExitFridge
 	draw_sprite_ext(ExitLevel, 0, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - 110,
 					camera_get_view_y(view_camera[0]) + 10,0.5,0.5,0,-1,1);
@@ -13,7 +17,6 @@ if (room == SF_Shelf1 || room == SF_Shelf2 || room == SF_Shelf3 || room == SF_Sh
 					camera_get_view_y(view_camera[0]),0.5,0.5,0,-1,1);
 
 	// Inventory
-
 	// need to add if so its only draws when in fridge
 	for (i = 0; i < 6; i++) {
 		if (inven[i] == 0) {

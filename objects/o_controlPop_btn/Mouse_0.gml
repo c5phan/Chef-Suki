@@ -4,10 +4,10 @@ if (!created && !o_settingPop_btn.created) {
 	y = camera_get_view_y(view_camera[0]) + 55;
 	
 	// make popup in center of camera
-	_d = instance_create_layer(camera_get_view_x(view_camera[0]) + 20, 
-							   camera_get_view_y(view_camera[0]) + 70, "Setting_Popup",o_ctrlDestroy);
-	_d.image_xscale = 1.8;
-	_d.image_yscale = 0.5;
+	_d = instance_create_layer(camera_get_view_x(view_camera[0]) + 190, 
+							   camera_get_view_y(view_camera[0]) + 80, "Setting_Popup",o_ctrlDestroy);
+	_d.image_xscale = 0.3;
+	_d.image_yscale = 0.3;
 	
 	_pop = instance_create_layer(camera_get_view_x(view_camera[0]),
 								  camera_get_view_y(view_camera[0]) + 30 ,"Setting_Popup",o_ctrlPop);

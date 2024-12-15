@@ -3,7 +3,7 @@
   "%Name":"ControlPopUp",
   "bboxMode":0,
   "bbox_bottom":592,
-  "bbox_left":39,
+  "bbox_left":377,
   "bbox_right":967,
   "bbox_top":86,
   "collisionKind":1,
